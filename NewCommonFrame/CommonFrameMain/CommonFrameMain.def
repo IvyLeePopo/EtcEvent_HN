@@ -1,0 +1,69 @@
+LIBRARY	"CommonFrameMain"
+
+EXPORTS
+    ; 此处可以是显式导出
+    IF_InitEnvironment		@1
+	IF_Destroy				@2
+	IF_GetLastErrorDesc		@3
+	IF_StartGetAccountInfo	@4
+	IF_StopGetAccountInfo	@5
+	IF_GetAccountInfo		@6
+	IF_DebitMoney			@7
+	IF_DebitCancel			@8
+	IF_GetDebitResult		@9
+	IF_SetMMI				@10
+	IF_GetParam				@11
+	IF_GetComponentStatus	@12
+	IF_TranslateData		@13
+	IF_InitEnvironment2		@14
+	IF_InitEnvironment3		@15
+	IF_TransferImage		@16
+	IF_QueryAgentDebit		@17
+	
+	IF_ITCEntryTrade        @18
+	IF_ITCExitQuery         @19
+	IF_ITCExitTrade         @20
+	IF_CompletionTicketNo   @21
+	
+	IF_SetVehicleStatus     @22
+	IF_PrinterTicket        @23
+	IF_ReadCardInfo         @24
+	IF_WriteCardInfo        @25
+	IF_TMP_SetUnipayEncrypt  @26
+	
+	IF_ITCQueryPath         @27
+	IF_GetServerTime        @28
+	IF_ITCEntryQuery        @29
+	IF_QueryVirtualCardDebit @30
+	IF_InitEnvironment4		@31
+	IF_DebitCancel2			@32
+	IF_GetCancelResult		@33
+	
+	IF_AuditPayIdenfitier	@34
+	IF_GetAuditResult		@35
+	IF_QueryAgentDebitEtcUp @36
+	IF_QueryAgentDebitResultEtcUp @37
+	IF_DebitMoneyEtcUp @38
+	
+	IF_EventInitEnvironment3	@39
+	IF_EventDestroy				@40
+	IF_EventGetLastErrorDesc	@41
+	IF_EventGetComponentStatus  @42
+	IF_EventDealStart			@43
+	IF_EventCheckVehQueue		@44
+	IF_EventCheckVehInfo		@45
+	IF_EventCheckEntryInfo		@46
+	IF_EventShowFeeInfo			@47
+	IF_EventPayResultDisplay	@48
+	IF_EventStartScan			@49
+	IF_EventStopScan			@50
+	IF_EventDealStop			@51
+	IF_EventCardOperationNotify @52
+	IF_EventModifyVehQueue		@53
+	IF_EventFeeAuthorize		@54
+	IF_EventFreeVoicePlay       @55
+	IF_EventAuthorize			@56
+	IF_EventDelVehQueueResult   @57
+	IF_TransferCashInvoiceData  @58
+	IF_CancelCashInvoiceData    @59
+	

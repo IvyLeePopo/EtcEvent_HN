@@ -1,0 +1,978 @@
+
+
+
+
+2021-03-11 13:01:58.286:日志系统内部信息：日志系统启动
+
+2021-03-11 13:01:58.286:/*************************************程序启动(业务1.1.3.4 - 设备1.0.0.1)*************************************/
+2021-03-11 13:01:58.286:LPR超时设置:100ms
+2021-03-11 13:01:58.286:Connect CommonBus Success
+2021-03-11 13:01:58.286:0000146C#[ETC请求处理单元]ETC支付处理单元创建成功
+2021-03-11 13:01:58.286:0000146C#[ETC请求处理单元]ETC授权处理单元创建成功
+2021-03-11 13:01:58.286:[主进程响应],组件初始化接口(IF_InitEnvironment)调用开始
+2021-03-11 13:01:58.286:[主进程响应],组件初始化接口(IF_InitEnvironment)，内部参数配置:新郑新区(省份编码:41,区域编码:4101,路段编码:108,站点编码:35010)
+2021-03-11 13:01:58.286:00001828#[过程调用]调用开始:(支付数据缓存查询)
+2021-03-11 13:01:58.286:0000146C#Error:Load DDsCommonBus fail ,path:f:\softdata\payset\DDsCommonBus.dll,code:126
+2021-03-11 13:01:58.286:00001828#[过程调用]调用结束:支付数据缓存查询,耗时:0ms
+2021-03-11 13:01:58.286:0000146C#Error:Can't connect dds
+2021-03-11 13:01:58.286:[主进程响应],组件初始化接口(IF_InitEnvironment)，代扣动态库未启用!)
+2021-03-11 13:01:58.286:init 1
+2021-03-11 13:01:58.286:[主进程响应],组件初始化接口(IF_InitEnvironment)调用结束
+2021-03-11 13:01:58.286:00001820#支付处理单元创建成功
+2021-03-11 13:01:58.286:【产生错误】[支付通讯线程]:支付平台心跳验证,第 1 次
+2021-03-11 13:01:58.505:[设备控制线程],线程存活日志检测
+2021-03-11 13:01:58.708:[播报更新线程]: 线程已启动，正在读取本地配置信息
+2021-03-11 13:01:58.708:[播报更新线程]: 正在读取本地已有播报数据
+2021-03-11 13:01:59.114:[业务管理线程],线程存活日志检测
+2021-03-11 13:02:00.939:[ETC特情业务],ETC特情初始化接口(IF_EventInitEnvironment3)调用开始
+2021-03-11 13:02:00.939:m_EtcAreaId:4101,m_EtcAreaName:河南,m_EtcRoadId:108,m_EtcRoadName:河南高速
+2021-03-11 13:02:00.939:[ETC特情业务],初始化接口(IF_EventInitEnvironment3),参数配置:(省份:41,区域:4101#河南#108#河南高速,站:35010#新郑新区,回调指针:1C4E610,回调函数:0000)
+2021-03-11 13:02:00.939:[EtcEvent应答通知线程]：线程开始启动,线程ID: 6340
+2021-03-11 13:02:01.943:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:02:01.943:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:02:08.113:id:1,strXML:<?xmlversion="1.0"encoding="GB2312"?><DisplayContext><Version>1.0</Version><ProvinceID>41</ProvinceID><VerifyCode>0</VerifyCode><Data><Type>102</Type><Context>高速纵横欢迎您</Context></Data></DisplayContext>
+2021-03-11 13:02:17.028:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:02:17.028:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:02:20.033:【产生错误】[支付通讯线程]:数据交互过程产生错误,服务器异常,详细描述:(心跳检测,任务号 4,错误代码:12029)无法与服务器建立连接
+2021-03-11 13:02:21.037:【产生错误】[支付通讯线程]:支付平台心跳验证,第 2 次
+2021-03-11 13:02:33.093:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:02:33.093:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:02:42.048:[支付通讯线程]:心跳检测,服务器产生异常
+2021-03-11 13:02:43.048:【产生错误】[支付通讯线程]:支付平台心跳验证,第 3 次
+2021-03-11 13:02:49.078:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:02:49.078:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:03:05.011:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:03:05.011:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:03:05.059:[支付通讯线程]:检索未递交的撤单数据出现异常，无法获取到有效数据
+2021-03-11 13:03:05.059:[支付通讯线程],线程存活日志检测
+2021-03-11 13:03:21.044:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:03:21.044:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:03:37.089:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:03:37.089:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+
+
+
+
+2021-03-11 13:19:04.885:日志系统内部信息：日志系统启动
+
+2021-03-11 13:19:04.885:/*************************************程序启动(业务1.1.3.4 - 设备1.0.0.1)*************************************/
+2021-03-11 13:19:04.885:LPR超时设置:100ms
+2021-03-11 13:19:04.885:Connect CommonBus Success
+2021-03-11 13:19:04.901:0000156C#[ETC请求处理单元]ETC支付处理单元创建成功
+2021-03-11 13:19:04.901:0000156C#[ETC请求处理单元]ETC授权处理单元创建成功
+2021-03-11 13:19:04.901:[主进程响应],组件初始化接口(IF_InitEnvironment)调用开始
+2021-03-11 13:19:04.901:[主进程响应],组件初始化接口(IF_InitEnvironment)，内部参数配置:新郑新区(省份编码:41,区域编码:4101,路段编码:108,站点编码:35010)
+2021-03-11 13:19:04.901:0000158C#[过程调用]调用开始:(支付数据缓存查询)
+2021-03-11 13:19:04.901:0000156C#Error:Load DDsCommonBus fail ,path:f:\softdata\payset\DDsCommonBus.dll,code:126
+2021-03-11 13:19:04.901:0000156C#Error:Can't connect dds
+2021-03-11 13:19:04.901:[主进程响应],组件初始化接口(IF_InitEnvironment)，代扣动态库未启用!)
+2021-03-11 13:19:04.901:init 1
+2021-03-11 13:19:04.901:0000158C#[过程调用]调用结束:支付数据缓存查询,耗时:0ms
+2021-03-11 13:19:04.901:[主进程响应],组件初始化接口(IF_InitEnvironment)调用结束
+2021-03-11 13:19:04.901:00001594#支付处理单元创建成功
+2021-03-11 13:19:04.901:【产生错误】[支付通讯线程]:支付平台心跳验证,第 1 次
+2021-03-11 13:19:05.120:[设备控制线程],线程存活日志检测
+2021-03-11 13:19:05.323:[播报更新线程]: 线程已启动，正在读取本地配置信息
+2021-03-11 13:19:05.323:[播报更新线程]: 正在读取本地已有播报数据
+2021-03-11 13:19:05.728:[业务管理线程],线程存活日志检测
+2021-03-11 13:19:06.912:[ETC特情业务],ETC特情初始化接口(IF_EventInitEnvironment3)调用开始
+2021-03-11 13:19:06.912:m_EtcAreaId:4101,m_EtcAreaName:河南,m_EtcRoadId:108,m_EtcRoadName:河南高速
+2021-03-11 13:19:06.912:[ETC特情业务],初始化接口(IF_EventInitEnvironment3),参数配置:(省份:41,区域:4101#河南#108#河南高速,站:35010#新郑新区,回调指针:1BEE610,回调函数:0000)
+2021-03-11 13:19:06.912:[EtcEvent应答通知线程]：线程开始启动,线程ID: 5888
+2021-03-11 13:19:07.917:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:19:07.917:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:19:14.122:id:1,strXML:<?xmlversion="1.0"encoding="GB2312"?><DisplayContext><Version>1.0</Version><ProvinceID>41</ProvinceID><VerifyCode>0</VerifyCode><Data><Type>102</Type><Context>高速纵横欢迎您</Context></Data></DisplayContext>
+2021-03-11 13:19:23.037:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:19:23.037:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:19:26.046:【产生错误】[支付通讯线程]:数据交互过程产生错误,服务器异常,详细描述:(心跳检测,任务号 4,错误代码:12029)无法与服务器建立连接
+2021-03-11 13:19:27.051:【产生错误】[支付通讯线程]:支付平台心跳验证,第 2 次
+2021-03-11 13:19:30.576:[支付通讯线程]:心跳检测,服务器产生异常
+2021-03-11 13:19:31.580:【产生错误】[支付通讯线程]:支付平台心跳验证,第 3 次
+2021-03-11 13:19:33.617:[支付通讯线程]:检索未递交的撤单数据出现异常，无法获取到有效数据
+2021-03-11 13:19:33.617:[支付通讯线程],线程存活日志检测
+2021-03-11 13:19:39.018:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:19:39.018:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:19:55.087:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:19:55.087:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:20:11.060:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:20:11.060:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:20:27.077:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:20:27.077:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:20:43.050:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:20:43.050:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:20:59.015:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:20:59.015:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:21:15.012:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:21:15.012:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:21:31.093:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:21:31.093:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:21:47.078:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:21:47.078:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+
+
+
+
+2021-03-11 13:21:59.990:日志系统内部信息：日志系统启动
+
+2021-03-11 13:21:59.990:/*************************************程序启动(业务1.1.3.4 - 设备1.0.0.1)*************************************/
+2021-03-11 13:21:59.990:LPR超时设置:100ms
+2021-03-11 13:21:59.990:Connect CommonBus Success
+2021-03-11 13:21:59.990:000006C0#[ETC请求处理单元]ETC支付处理单元创建成功
+2021-03-11 13:21:59.990:000006C0#[ETC请求处理单元]ETC授权处理单元创建成功
+2021-03-11 13:21:59.990:[主进程响应],组件初始化接口(IF_InitEnvironment)调用开始
+2021-03-11 13:21:59.990:[主进程响应],组件初始化接口(IF_InitEnvironment)，内部参数配置:新郑新区(省份编码:41,区域编码:4101,路段编码:108,站点编码:35010)
+2021-03-11 13:21:59.990:000009F0#[过程调用]调用开始:(支付数据缓存查询)
+2021-03-11 13:21:59.990:000006C0#Error:Load DDsCommonBus fail ,path:f:\softdata\payset\DDsCommonBus.dll,code:126
+2021-03-11 13:21:59.990:000009F0#[过程调用]调用结束:支付数据缓存查询,耗时:0ms
+2021-03-11 13:21:59.990:000006C0#Error:Can't connect dds
+2021-03-11 13:21:59.990:[主进程响应],组件初始化接口(IF_InitEnvironment)，代扣动态库未启用!)
+2021-03-11 13:21:59.990:init 1
+2021-03-11 13:21:59.990:[主进程响应],组件初始化接口(IF_InitEnvironment)调用结束
+2021-03-11 13:21:59.990:000002E4#支付处理单元创建成功
+2021-03-11 13:21:59.990:【产生错误】[支付通讯线程]:支付平台心跳验证,第 1 次
+2021-03-11 13:22:00.208:[设备控制线程],线程存活日志检测
+2021-03-11 13:22:00.411:[播报更新线程]: 线程已启动，正在读取本地配置信息
+2021-03-11 13:22:00.411:[播报更新线程]: 正在读取本地已有播报数据
+2021-03-11 13:22:00.818:[业务管理线程],线程存活日志检测
+2021-03-11 13:22:01.037:【产生错误】[支付通讯线程]:数据交互过程产生错误,服务器异常,详细描述:(心跳检测,任务号 4,错误代码:12029)无法与服务器建立连接
+2021-03-11 13:22:01.954:[ETC特情业务],ETC特情初始化接口(IF_EventInitEnvironment3)调用开始
+2021-03-11 13:22:01.954:m_EtcAreaId:4101,m_EtcAreaName:河南,m_EtcRoadId:108,m_EtcRoadName:河南高速
+2021-03-11 13:22:01.954:[ETC特情业务],初始化接口(IF_EventInitEnvironment3),参数配置:(省份:41,区域:4101#河南#108#河南高速,站:35010#新郑新区,回调指针:1C5E610,回调函数:0000)
+2021-03-11 13:22:01.954:[EtcEvent应答通知线程]：线程开始启动,线程ID: 3772
+2021-03-11 13:22:02.042:【产生错误】[支付通讯线程]:支付平台心跳验证,第 2 次
+2021-03-11 13:22:02.958:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:22:02.958:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:22:03.074:[支付通讯线程]:心跳检测,服务器产生异常
+2021-03-11 13:22:04.078:【产生错误】[支付通讯线程]:支付平台心跳验证,第 3 次
+2021-03-11 13:22:06.119:[支付通讯线程]:检索未递交的撤单数据出现异常，无法获取到有效数据
+2021-03-11 13:22:06.119:[支付通讯线程],线程存活日志检测
+2021-03-11 13:22:09.104:id:1,strXML:<?xmlversion="1.0"encoding="GB2312"?><DisplayContext><Version>1.0</Version><ProvinceID>41</ProvinceID><VerifyCode>0</VerifyCode><Data><Type>102</Type><Context>高速纵横欢迎您</Context></Data></DisplayContext>
+2021-03-11 13:22:18.031:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:22:18.031:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:22:34.012:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:22:34.012:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:22:50.073:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:22:50.073:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+
+
+
+
+2021-03-11 13:24:14.034:日志系统内部信息：日志系统启动
+
+2021-03-11 13:24:14.034:/*************************************程序启动(业务1.1.3.4 - 设备1.0.0.1)*************************************/
+2021-03-11 13:24:14.034:LPR超时设置:100ms
+2021-03-11 13:24:14.034:Connect CommonBus Success
+2021-03-11 13:24:14.050:00001688#[ETC请求处理单元]ETC支付处理单元创建成功
+2021-03-11 13:24:14.050:00001688#[ETC请求处理单元]ETC授权处理单元创建成功
+2021-03-11 13:24:14.050:[主进程响应],组件初始化接口(IF_InitEnvironment)调用开始
+2021-03-11 13:24:14.050:[主进程响应],组件初始化接口(IF_InitEnvironment)，内部参数配置:新郑新区(省份编码:41,区域编码:4101,路段编码:108,站点编码:35010)
+2021-03-11 13:24:14.050:00001C68#[过程调用]调用开始:(支付数据缓存查询)
+2021-03-11 13:24:14.050:00001688#Error:Load DDsCommonBus fail ,path:f:\softdata\payset\DDsCommonBus.dll,code:126
+2021-03-11 13:24:14.050:00001C68#[过程调用]调用结束:支付数据缓存查询,耗时:0ms
+2021-03-11 13:24:14.050:00001688#Error:Can't connect dds
+2021-03-11 13:24:14.050:[主进程响应],组件初始化接口(IF_InitEnvironment)，代扣动态库未启用!)
+2021-03-11 13:24:14.050:init 1
+2021-03-11 13:24:14.050:[主进程响应],组件初始化接口(IF_InitEnvironment)调用结束
+2021-03-11 13:24:14.050:00001C5C#支付处理单元创建成功
+2021-03-11 13:24:14.050:【产生错误】[支付通讯线程]:支付平台心跳验证,第 1 次
+2021-03-11 13:24:14.269:[设备控制线程],线程存活日志检测
+2021-03-11 13:24:14.472:[播报更新线程]: 线程已启动，正在读取本地配置信息
+2021-03-11 13:24:14.472:[播报更新线程]: 正在读取本地已有播报数据
+2021-03-11 13:24:14.878:[业务管理线程],线程存活日志检测
+2021-03-11 13:24:15.112:【产生错误】[支付通讯线程]:数据交互过程产生错误,服务器异常,详细描述:(心跳检测,任务号 4,错误代码:12029)无法与服务器建立连接
+2021-03-11 13:24:15.960:[ETC特情业务],ETC特情初始化接口(IF_EventInitEnvironment3)调用开始
+2021-03-11 13:24:15.960:m_EtcAreaId:4101,m_EtcAreaName:河南,m_EtcRoadId:108,m_EtcRoadName:河南高速
+2021-03-11 13:24:15.960:[ETC特情业务],初始化接口(IF_EventInitEnvironment3),参数配置:(省份:41,区域:4101#河南#108#河南高速,站:35010#新郑新区,回调指针:1C7E610,回调函数:0000)
+2021-03-11 13:24:15.960:[EtcEvent应答通知线程]：线程开始启动,线程ID: 7476
+2021-03-11 13:24:16.116:【产生错误】[支付通讯线程]:支付平台心跳验证,第 2 次
+2021-03-11 13:24:16.964:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:24:16.964:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:24:17.148:[支付通讯线程]:心跳检测,服务器产生异常
+2021-03-11 13:24:18.153:【产生错误】[支付通讯线程]:支付平台心跳验证,第 3 次
+2021-03-11 13:24:20.193:[支付通讯线程]:检索未递交的撤单数据出现异常，无法获取到有效数据
+2021-03-11 13:24:20.193:[支付通讯线程],线程存活日志检测
+2021-03-11 13:24:23.114:id:1,strXML:<?xmlversion="1.0"encoding="GB2312"?><DisplayContext><Version>1.0</Version><ProvinceID>41</ProvinceID><VerifyCode>0</VerifyCode><Data><Type>102</Type><Context>高速纵横欢迎您</Context></Data></DisplayContext>
+2021-03-11 13:24:32.029:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:24:32.029:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+
+
+
+
+2021-03-11 13:35:09.707:日志系统内部信息：日志系统启动
+
+2021-03-11 13:35:09.707:/*************************************程序启动(业务1.1.3.4 - 设备1.0.0.1)*************************************/
+2021-03-11 13:35:09.707:LPR超时设置:100ms
+2021-03-11 13:35:09.707:Connect CommonBus Success
+2021-03-11 13:35:09.722:000015A8#[ETC请求处理单元]ETC支付处理单元创建成功
+2021-03-11 13:35:09.722:000015A8#[ETC请求处理单元]ETC授权处理单元创建成功
+2021-03-11 13:35:09.722:[主进程响应],组件初始化接口(IF_InitEnvironment)调用开始
+2021-03-11 13:35:09.722:[主进程响应],组件初始化接口(IF_InitEnvironment)，内部参数配置:新郑新区(省份编码:41,区域编码:4101,路段编码:108,站点编码:35010)
+2021-03-11 13:35:09.722:000015C8#[过程调用]调用开始:(支付数据缓存查询)
+2021-03-11 13:35:09.722:000015A8#Error:Load DDsCommonBus fail ,path:f:\softdata\payset\DDsCommonBus.dll,code:126
+2021-03-11 13:35:09.722:000015C8#[过程调用]调用结束:支付数据缓存查询,耗时:0ms
+2021-03-11 13:35:09.722:000015A8#Error:Can't connect dds
+2021-03-11 13:35:09.722:[主进程响应],组件初始化接口(IF_InitEnvironment)，代扣动态库未启用!)
+2021-03-11 13:35:09.722:init 1
+2021-03-11 13:35:09.722:[主进程响应],组件初始化接口(IF_InitEnvironment)调用结束
+2021-03-11 13:35:09.722:000015D0#支付处理单元创建成功
+2021-03-11 13:35:09.722:【产生错误】[支付通讯线程]:支付平台心跳验证,第 1 次
+2021-03-11 13:35:09.941:[设备控制线程],线程存活日志检测
+2021-03-11 13:35:10.144:[播报更新线程]: 线程已启动，正在读取本地配置信息
+2021-03-11 13:35:10.144:[播报更新线程]: 正在读取本地已有播报数据
+2021-03-11 13:35:10.551:[业务管理线程],线程存活日志检测
+2021-03-11 13:35:11.730:[ETC特情业务],ETC特情初始化接口(IF_EventInitEnvironment3)调用开始
+2021-03-11 13:35:11.730:m_EtcAreaId:4101,m_EtcAreaName:河南,m_EtcRoadId:108,m_EtcRoadName:河南高速
+2021-03-11 13:35:11.730:[ETC特情业务],初始化接口(IF_EventInitEnvironment3),参数配置:(省份:41,区域:4101#河南#108#河南高速,站:35010#新郑新区,回调指针:1B0E610,回调函数:0000)
+2021-03-11 13:35:11.730:[EtcEvent应答通知线程]：线程开始启动,线程ID: 5960
+2021-03-11 13:35:12.735:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:35:12.735:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:35:19.121:id:1,strXML:<?xmlversion="1.0"encoding="GB2312"?><DisplayContext><Version>1.0</Version><ProvinceID>41</ProvinceID><VerifyCode>0</VerifyCode><Data><Type>102</Type><Context>高速纵横欢迎您</Context></Data></DisplayContext>
+2021-03-11 13:35:28.008:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:35:28.008:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:35:30.864:【产生错误】[支付通讯线程]:数据交互过程产生错误,服务器异常,详细描述:(心跳检测,任务号 4,错误代码:12029)无法与服务器建立连接
+2021-03-11 13:35:31.869:【产生错误】[支付通讯线程]:支付平台心跳验证,第 2 次
+2021-03-11 13:35:35.394:[支付通讯线程]:心跳检测,服务器产生异常
+2021-03-11 13:35:36.398:【产生错误】[支付通讯线程]:支付平台心跳验证,第 3 次
+2021-03-11 13:35:38.435:[支付通讯线程]:检索未递交的撤单数据出现异常，无法获取到有效数据
+2021-03-11 13:35:38.435:[支付通讯线程],线程存活日志检测
+2021-03-11 13:35:44.085:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:35:44.085:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:36:00.026:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:36:00.026:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:36:16.015:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:36:16.015:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:36:32.076:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:36:32.076:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+
+
+
+
+2021-03-11 13:47:18.687:日志系统内部信息：日志系统启动
+
+2021-03-11 13:47:18.687:/*************************************程序启动(业务1.1.3.4 - 设备1.0.0.1)*************************************/
+2021-03-11 13:47:18.687:LPR超时设置:100ms
+2021-03-11 13:47:18.687:Connect CommonBus Success
+2021-03-11 13:47:18.687:00001310#[ETC请求处理单元]ETC支付处理单元创建成功
+2021-03-11 13:47:18.687:00001310#[ETC请求处理单元]ETC授权处理单元创建成功
+2021-03-11 13:47:18.687:[主进程响应],组件初始化接口(IF_InitEnvironment)调用开始
+2021-03-11 13:47:18.687:[主进程响应],组件初始化接口(IF_InitEnvironment)，内部参数配置:新郑新区(省份编码:41,区域编码:4101,路段编码:108,站点编码:35010)
+2021-03-11 13:47:18.687:00001E68#[过程调用]调用开始:(支付数据缓存查询)
+2021-03-11 13:47:18.687:00001310#Error:Load DDsCommonBus fail ,path:f:\softdata\payset\DDsCommonBus.dll,code:126
+2021-03-11 13:47:18.687:00001E68#[过程调用]调用结束:支付数据缓存查询,耗时:0ms
+2021-03-11 13:47:18.687:00001310#Error:Can't connect dds
+2021-03-11 13:47:18.687:[主进程响应],组件初始化接口(IF_InitEnvironment)，代扣动态库未启用!)
+2021-03-11 13:47:18.687:init 1
+2021-03-11 13:47:18.687:[主进程响应],组件初始化接口(IF_InitEnvironment)调用结束
+2021-03-11 13:47:18.687:00001E60#支付处理单元创建成功
+2021-03-11 13:47:18.687:【产生错误】[支付通讯线程]:支付平台心跳验证,第 1 次
+2021-03-11 13:47:18.874:send length:10
+2021-03-11 13:47:18.905:[设备控制线程],线程存活日志检测
+2021-03-11 13:47:19.108:[播报更新线程]: 线程已启动，正在读取本地配置信息
+2021-03-11 13:47:19.108:[播报更新线程]: 正在读取本地已有播报数据
+2021-03-11 13:47:19.515:[业务管理线程],线程存活日志检测
+2021-03-11 13:47:19.876:【产生错误】[支付通讯线程]:支付平台心跳验证,第 2 次
+2021-03-11 13:47:19.050:send length:10
+2021-03-11 13:47:19.802:[ETC特情业务],ETC特情初始化接口(IF_EventInitEnvironment3)调用开始
+2021-03-11 13:47:19.802:m_EtcAreaId:4101,m_EtcAreaName:河南,m_EtcRoadId:108,m_EtcRoadName:河南高速
+2021-03-11 13:47:19.802:[ETC特情业务],初始化接口(IF_EventInitEnvironment3),参数配置:(省份:41,区域:4101#河南#108#河南高速,站:35010#新郑新区,回调指针:1C7E610,回调函数:0000)
+2021-03-11 13:47:19.802:[EtcEvent应答通知线程]：线程开始启动,线程ID: 7832
+2021-03-11 13:47:20.054:【产生错误】[支付通讯线程]:支付平台心跳验证,第 3 次
+2021-03-11 13:47:20.130:send length:10
+2021-03-11 13:47:20.806:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:47:20.806:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:47:21.134:[支付通讯线程]:检索未递交的撤单数据出现异常，无法获取到有效数据
+2021-03-11 13:47:21.134:[支付通讯线程],线程存活日志检测
+2021-03-11 13:47:27.112:id:1,strXML:<?xmlversion="1.0"encoding="GB2312"?><DisplayContext><Version>1.0</Version><ProvinceID>41</ProvinceID><VerifyCode>0</VerifyCode><Data><Type>102</Type><Context>高速纵横欢迎您</Context></Data></DisplayContext>
+2021-03-11 13:47:36.007:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:47:36.007:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:47:52.041:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:47:52.041:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:48:08.078:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:48:08.078:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:48:24.031:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:48:24.031:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:48:40.088:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:48:40.088:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:48:56.101:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:48:56.101:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:49:12.078:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:49:12.078:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:49:28.085:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:49:28.085:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:49:44.026:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:49:44.026:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:50:00.087:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:50:00.087:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:50:10.863:[ETC特情业务],特情处理开始接口(IF_EventDealStart)调用开始,参数:{"EventDealStart":{"SpecialEventNo":"40513E5363E549BD83D55858B1B35468","MessageCode":"001","Data":{"VehPlate":"","VehPlateColor":0,"VehClass":0,"VehType":1,"VehSeatCount":6,"axleCount":2,"CardNum":"0","EventStartTime":"2021-03-11 13:50:10","EventDescribe":"无标签车辆.","EventTypeNo":1,"EventTypeName":"无标签车辆.","mediaType":1,"mediaNo":"0","isDiscount":1,"enStationId":"0","enTollLaneId":"1","enTime":"2021-03-11 13:50:10","passId":"0","exitFeeType":5,"holidayFreeTag":0,"gantryCount":0,"passGantrys":"0","tollFee":"0","pathRatePriorty":0}}}
+2021-03-11 13:50:11.035:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"40513E5363E549BD83D55858B1B35468","MessageCode":"009","Data":{"NotifyType":1}}}
+2021-03-11 13:50:11.239:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:50:11.343:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:50:16.084:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:50:16.084:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:50:22.995:[ETC特情业务],特情处理结束接口(IF_EventDealStop)调用开始,参数:{"EventDealStop":{"SpecialEventNo":"40513E5363E549BD83D55858B1B35468","MessageCode":"008","EventEndCases":{"EventVehPlate":"","EventEndTime":"2021-03-11 13:50:22","EventDescribe":"无入口信息","EventEndReason":"特情处理完成,支付成功","EventHandleMethodNo":3,"EventHandleMethodName":"终端处理"}}}
+2021-03-11 13:50:23.187:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:50:32.025:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:50:32.025:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:50:45.886:[ETC特情业务],特情处理开始接口(IF_EventDealStart)调用开始,参数:{"EventDealStart":{"SpecialEventNo":"F686A0212784400BB2DCE43085121AC3","MessageCode":"001","Data":{"VehPlate":"","VehPlateColor":0,"VehClass":0,"VehType":1,"VehSeatCount":6,"axleCount":2,"CardNum":"0","EventStartTime":"2021-03-11 13:50:45","EventDescribe":"无标签车辆.","EventTypeNo":1,"EventTypeName":"无标签车辆.","mediaType":1,"mediaNo":"0","isDiscount":1,"enStationId":"0","enTollLaneId":"1","enTime":"2021-03-11 13:50:45","passId":"0","exitFeeType":5,"holidayFreeTag":0,"gantryCount":0,"passGantrys":"0","tollFee":"0","pathRatePriorty":0}}}
+2021-03-11 13:50:46.034:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"F686A0212784400BB2DCE43085121AC3","MessageCode":"009","Data":{"NotifyType":1}}}
+2021-03-11 13:50:46.242:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:50:46.346:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:50:48.002:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:50:48.002:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:04.071:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:04.071:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:20.016:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:20.016:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:29.019:[设备控制线程],线程存活日志检测
+2021-03-11 13:51:30.003:[业务管理线程],线程存活日志检测
+2021-03-11 13:51:32.004:[支付通讯线程],线程存活日志检测
+2021-03-11 13:51:36.077:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:36.077:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:48.585:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"F686A0212784400BB2DCE43085121AC3","MessageCode":"009","Data":{"NotifyType":3}}}
+2021-03-11 13:51:48.793:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:51:51.010:[ETC特情业务],费额显示接口(IF_EventShowFeeInfo)调用开始,参数:{"EventShowFeeInfo":{"SpecialEventNo":"F686A0212784400BB2DCE43085121AC3","MessageCode":"007","VehPlate":"豫ABK539","PayType":1,"DefaultFeeItemNo":1,"FeeCount":1,"FeeInfo":[{"Entry":"河南郑州沟赵站","PathInfo":"0000-9999","Fee":"3610","ChargeType":2,"ItemNo":1}],"TotalVehNum":1,"VehQueue":[{"Index":0,"VehPlate":"豫ABK539","VehPlateColor":0,"Fee":"3610","DealResult":0,"FailReason":""}]}}
+2021-03-11 13:51:51.166:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:51.166:00001310#[主进程响应]接口调用开始:(IF_DebitMoney)<?xml version="1.0" encoding="GB2312"?><DebitParamContext><Version>1.0</Version><Data><OverTime>30000</OverTime><OperationMode>1</OperationMode><Debit><PayIdentifier>B3029C34B45B4B1E9589DF98A58A94F6</PayIdentifier><Money>3610</Money><SubTime>2021-03-11 13:51:48</SubTime><Type>1</Type><PayCertificateType>0</PayCertificateType></Debit><Vehicle><Type>1</Type><Class>1</Class><License>蓝豫ABK539</License><VLColor>0</VLColor><AutoPlate><AutoLicense>蓝豫ABK539</AutoLicense><AutoColor>0</AutoColor></AutoPlate><AxisCount>0</AxisCount><Weight>0</Weight></Vehicle><Operation><PassCertificateType>1</PassCertificateType><CardID>0</CardID><TollDate>20210311</TollDate><ShiftID>2</ShiftID></Operation><Entry><RoadID>108</RoadID><AreaID>4101</AreaID><StationID>31014</StationID><StationName>河南郑州沟赵站</StationName><Time>2021-03-11 13:51:48</Time><LaneID>0</LaneID><License>04209DDF8CE8</License><VColor>0</VColor><VClass>1</VClass><VType>1</VType></Entry></Data></DebitParamContext>
+2021-03-11 13:51:51.166:Query ImageID and TaskID from LPR
+2021-03-11 13:51:51.166:00001310#[主进程响应]接口调用结束:IF_DebitMoney,耗时:0ms
+2021-03-11 13:51:51.178:00001DBC#[支付处理单元]开始交易,识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:51:51.178:00001DBC#[支付处理单元]未启用代扣,不进行代扣处理
+2021-03-11 13:51:51.178:00001DBC#[支付处理单元]代扣执行码:-1
+2021-03-11 13:51:51.178:00001DBC#[支付处理单元]开始获取支付凭证
+2021-03-11 13:51:51.178:00001DBC#[支付处理单元]获取支付凭证等待时间(ms):30000
+2021-03-11 13:51:51.266:[设备控制线程],接收到指令，执行扣款流程操作(扫码),交易标识:
+2021-03-11 13:51:52.102:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:51:52.102:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:08.079:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:08.079:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:21.027:00001310#[主进程响应]接口调用开始:(IF_DebitCancel)<?xml version="1.0" encoding="GB2312"?><DebitCancelParamContext><Version>1.0</Version><ProvinceID>63</ProvinceID><Data><TradeKeyItem><PayIdentifier>B3029C34B45B4B1E9589DF98A58A94F6</PayIdentifier></TradeKeyItem></Data></DebitCancelParamContext>
+2021-03-11 13:52:21.027:00001310#[支付处理单元]中断此交易，交易识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:52:21.051:00001310#[支付处理单元]撤单数据插入数据库成功，识别码：B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:52:21.051:00001310#[主进程响应]接口调用结束:IF_DebitCancel,耗时:24ms
+2021-03-11 13:52:21.051:00001DBC#[支付处理单元]取消交易，不再获取支付凭证
+2021-03-11 13:52:21.051:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:1,执行结果:255
+2021-03-11 13:52:21.051:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:52:21.051:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:21.051:[主进程响应],设置交互界面接口(IF_SetMMI)调用开始(返回TRUE)
+2021-03-11 13:52:21.051:[ETC特情业务],支付结果展示接口(IF_EventPayResultDisplay)调用开始,参数:{"EventPayResultShow":{"SpecialEventNo":"F686A0212784400BB2DCE43085121AC3","MessageCode":"006","EventInfo":{"RequestTime":"2021-03-11 13:52:21","RequestType":"004","PayResult":5,"Describe":"支付失败","TimeLimit":"360"}}}
+2021-03-11 13:52:21.067:[设备控制线程],接收到指令，控制设备停止扫码操作
+2021-03-11 13:52:21.155:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:52:26.675","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:52:26.686","DebitOrderNumber":""}
+2021-03-11 13:52:21.155:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:2,执行结果:255
+2021-03-11 13:52:21.175:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:52:21.175:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:52:21.187:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:21.187:00001310#[主进程响应]接口调用开始:(IF_DebitMoney)<?xml version="1.0" encoding="GB2312"?><DebitParamContext><Version>1.0</Version><Data><OverTime>30000</OverTime><OperationMode>1</OperationMode><Debit><PayIdentifier>03BF4864BC2D44D584EC643E272313B6</PayIdentifier><Money>3610</Money><SubTime>2021-03-11 13:51:48</SubTime><Type>1</Type><PayCertificateType>0</PayCertificateType></Debit><Vehicle><Type>1</Type><Class>1</Class><License>蓝豫ABK539</License><VLColor>0</VLColor><AutoPlate><AutoLicense>蓝豫ABK539</AutoLicense><AutoColor>0</AutoColor></AutoPlate><AxisCount>0</AxisCount><Weight>0</Weight></Vehicle><Operation><PassCertificateType>1</PassCertificateType><CardID>0</CardID><TollDate>20210311</TollDate><ShiftID>2</ShiftID></Operation><Entry><RoadID>108</RoadID><AreaID>4101</AreaID><StationID>31014</StationID><StationName>河南郑州沟赵站</StationName><Time>2021-03-11 13:51:48</Time><LaneID>0</LaneID><License>04209DDF8CE8</License><VColor>0</VColor><VClass>1</VClass><VType>1</VType></Entry></Data></DebitParamContext>
+2021-03-11 13:52:21.187:Query ImageID and TaskID from LPR
+2021-03-11 13:52:21.187:00001310#[主进程响应]接口调用结束:IF_DebitMoney,耗时:0ms
+2021-03-11 13:52:21.268:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:52:26.787","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:52:26.796","DebitOrderNumber":""}
+2021-03-11 13:52:21.284:00001DBC#[支付处理单元]开始交易,识别码:03BF4864BC2D44D584EC643E272313B6
+2021-03-11 13:52:21.284:00001DBC#[支付处理单元]未启用代扣,不进行代扣处理
+2021-03-11 13:52:21.284:00001DBC#[支付处理单元]代扣执行码:-1
+2021-03-11 13:52:21.284:00001DBC#[支付处理单元]开始获取支付凭证
+2021-03-11 13:52:21.284:00001DBC#[支付处理单元]获取支付凭证等待时间(ms):30000
+2021-03-11 13:52:21.396:[设备控制线程],接收到指令，执行扣款流程操作(扫码),交易标识:
+2021-03-11 13:52:21.396:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:52:24.020:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:24.020:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:38.413:00001310#[主进程响应]接口调用开始:(IF_DebitCancel)<?xml version="1.0" encoding="GB2312"?><DebitCancelParamContext><Version>1.0</Version><ProvinceID>63</ProvinceID><Data><TradeKeyItem><PayIdentifier>03BF4864BC2D44D584EC643E272313B6</PayIdentifier></TradeKeyItem></Data></DebitCancelParamContext>
+2021-03-11 13:52:38.413:00001310#[支付处理单元]中断此交易，交易识别码:03BF4864BC2D44D584EC643E272313B6
+2021-03-11 13:52:38.417:00001310#[支付处理单元]撤单数据插入数据库成功，识别码：03BF4864BC2D44D584EC643E272313B6
+2021-03-11 13:52:38.417:00001310#[主进程响应]接口调用结束:IF_DebitCancel,耗时:4ms
+2021-03-11 13:52:38.449:00001DBC#[支付处理单元]取消交易，不再获取支付凭证
+2021-03-11 13:52:38.449:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:1,执行结果:255
+2021-03-11 13:52:38.449:00001DBC#[支付处理单元]发起撤单请求，识别码:03BF4864BC2D44D584EC643E272313B6
+2021-03-11 13:52:38.457:[设备控制线程],接收到指令，控制设备停止扫码操作
+2021-03-11 13:52:38.521:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:38.521:[主进程响应],设置交互界面接口(IF_SetMMI)调用开始(返回TRUE)
+2021-03-11 13:52:38.521:[ETC特情业务],支付结果展示接口(IF_EventPayResultDisplay)调用开始,参数:{"EventPayResultShow":{"SpecialEventNo":"F686A0212784400BB2DCE43085121AC3","MessageCode":"006","EventInfo":{"RequestTime":"2021-03-11 13:52:38","RequestType":"004","PayResult":5,"Describe":"支付失败","TimeLimit":"360"}}}
+2021-03-11 13:52:38.541:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:52:44.059","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"03BF4864BC2D44D584EC643E272313B6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:52:44.069","DebitOrderNumber":""}
+2021-03-11 13:52:38.541:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:2,执行结果:255
+2021-03-11 13:52:38.857:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:52:40.037:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:40.037:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:51.009:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:52:51.009:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:52:51.105:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:52:56.622","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:52:56.634","DebitOrderNumber":""}
+2021-03-11 13:52:56.006:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:52:56.006:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:53:02.857:[ETC特情业务],特情处理结束接口(IF_EventDealStop)调用开始,参数:{"EventDealStop":{"SpecialEventNo":"F686A0212784400BB2DCE43085121AC3","MessageCode":"008","EventEndCases":{"EventVehPlate":"","EventEndTime":"2021-03-11 13:53:02","EventDescribe":"无入口信息","EventEndReason":"特情处理完成,支付成功","EventHandleMethodNo":3,"EventHandleMethodName":"终端处理"}}}
+2021-03-11 13:53:03.049:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 13:53:12.035:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:53:12.035:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:53:21.002:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:53:21.002:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:53:21.098:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:53:26.615","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:53:26.626","DebitOrderNumber":""}
+2021-03-11 13:53:28.016:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:53:28.016:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:53:44.057:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:53:44.057:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:53:51.012:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:53:51.012:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:53:51.104:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:53:56.626","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:53:56.635","DebitOrderNumber":""}
+2021-03-11 13:54:00.034:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:00.034:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:16.079:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:16.079:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:21.005:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:54:21.005:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:54:21.101:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:54:26.620","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:54:26.632","DebitOrderNumber":""}
+2021-03-11 13:54:32.040:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:32.040:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:48.025:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:48.025:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:51.002:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:54:51.002:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:54:51.098:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:54:56.616","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:54:56.628","DebitOrderNumber":""}
+2021-03-11 13:54:58.177:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:54:58.177:00001310#[主进程响应]接口调用开始:(IF_DebitMoney)<?xml version="1.0" encoding="GB2312"?><DebitParamContext><Version>1.0</Version><Data><OverTime>30000</OverTime><OperationMode>1</OperationMode><Debit><PayIdentifier>DD03213EB1A1420A9C3DD571BA712E4E</PayIdentifier><Money>300</Money><SubTime>2021-03-11 13:53:36</SubTime><Type>1</Type><PayCertificateType>0</PayCertificateType></Debit><Vehicle><Type>1</Type><Class>1</Class><License>蓝豫AW06L4</License><VLColor>0</VLColor><AutoPlate><AutoLicense></AutoLicense><AutoColor>0</AutoColor></AutoPlate><AxisCount>0</AxisCount><Weight>0</Weight></Vehicle><Operation><PassCertificateType>1</PassCertificateType><CardID>0</CardID><TollDate>20210311</TollDate><ShiftID>2</ShiftID></Operation><Entry><RoadID>108</RoadID><AreaID>4101</AreaID><StationID>35011</StationID><StationName>河南新村站</StationName><Time>2021-03-11 13:53:36</Time><LaneID>2</LaneID><License></License><VColor>0</VColor><VClass>1</VClass><VType>1</VType></Entry></Data></DebitParamContext>
+2021-03-11 13:54:58.177:Query ImageID and TaskID from LPR
+2021-03-11 13:54:58.177:00001310#[主进程响应]接口调用结束:IF_DebitMoney,耗时:0ms
+2021-03-11 13:54:58.193:00001DBC#[支付处理单元]开始交易,识别码:DD03213EB1A1420A9C3DD571BA712E4E
+2021-03-11 13:54:58.193:00001DBC#[支付处理单元]未启用代扣,不进行代扣处理
+2021-03-11 13:54:58.193:00001DBC#[支付处理单元]代扣执行码:-1
+2021-03-11 13:54:58.193:00001DBC#[支付处理单元]开始获取支付凭证
+2021-03-11 13:54:58.193:00001DBC#[支付处理单元]获取支付凭证等待时间(ms):30000
+2021-03-11 13:54:58.221:[设备控制线程],接收到指令，执行扣款流程操作(扫码),交易标识:
+2021-03-11 13:55:02.238:[设备控制线程],接收到EtcEvent设备的已获取支付二维码数据的通知
+2021-03-11 13:55:02.238:准备调用m_pHTSDDeviceDll->GetData接口
+2021-03-11 13:55:02.238:[设备控制线程],获取到数据(来源:1)
+2021-03-11 13:55:02.250:00001DBC#[支付处理单元]等待获取支付凭证结束
+2021-03-11 13:55:02.250:00001DBC#[支付处理单元]获取到支付凭证成功
+2021-03-11 13:55:02.250:00001DBC#[支付处理单元]发送支付请求到服务器
+2021-03-11 13:55:02.250:000019FC#[支付网络线程]开始发送支付请求,支付码:DD03213EB1A1420A9C3DD571BA712E4E
+2021-03-11 13:55:02.902:000019FC#[支付网络线程]查询支付请求,支付码:DD03213EB1A1420A9C3DD571BA712E4E
+2021-03-11 13:55:03.262:000019FC#[支付网络线程]查询支付请求,支付码:DD03213EB1A1420A9C3DD571BA712E4E
+2021-03-11 13:55:03.606:000019FC#[支付网络线程]查询支付请求,支付码:DD03213EB1A1420A9C3DD571BA712E4E
+2021-03-11 13:55:04.090:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:55:04.090:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:55:06.895:000019FC#[支付网络线程]查询支付请求,支付码:DD03213EB1A1420A9C3DD571BA712E4E
+2021-03-11 13:55:10.180:000019FC#[支付网络线程]查询支付请求,支付码:DD03213EB1A1420A9C3DD571BA712E4E
+2021-03-11 13:55:10.560:000019FC#[支付网络线程]服务器返回扣费成功
+2021-03-11 13:55:10.588:00001DBC#[支付处理单元]收到服务器回馈，支付成功
+2021-03-11 13:55:10.588:WritePayAbstract####1
+2021-03-11 13:55:10.588:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:1,执行结果:0
+2021-03-11 13:55:10.624:00001310#[主进程响应]接口调用开始:(IF_GetDebitResult)
+2021-03-11 13:55:10.624:00001310#[主进程响应]结果内容:<?xml version="1.0" encoding="GB2312"?><DebitResultContext><Version>1.0</Version><Data><ResultType>0</ResultType><ExecuteCode>0</ExecuteCode><ExecuteDesc/><TradeKeyItem><TradeSecurityCode/><PayPlatformType>1</PayPlatformType><PayIdentifier>DD03213EB1A1420A9C3DD571BA712E4E</PayIdentifier><DebitOrder>410035010133210311135507874216</DebitOrder><DebitTime>2021-03-11 13:55:08</DebitTime><ConsumeTime>0</ConsumeTime><ETCTradeInfo><ETCExecuteCode>0</ETCExecuteCode><IsUseVirtualETCCard>0</IsUseVirtualETCCard><VirtualETCCardID/><IssueFlag/><IssueIndex/><ETCCardType>0</ETCCardType><ETCVehicleLicense/><ETCBeforeBalance>0</ETCBeforeBalance><ETCAfterBalance>0</ETCAfterBalance><ETCProTradeNo>0</ETCProTradeNo><ETCTerminalTradeNo/><ETCTradeDate>0</ETCTradeDate><ETCTradeTime>0</ETCTradeTime><ETCTac/></ETCTradeInfo></TradeKeyItem></Data></DebitResultContext>
+2021-03-11 13:55:10.624:00001310#[主进程响应]接口调用结束:IF_GetDebitResult,耗时:0ms
+2021-03-11 13:55:10.624:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:55:10.624:[主进程响应],设置交互界面接口(IF_SetMMI)调用开始(返回TRUE)
+2021-03-11 13:55:20.015:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:55:20.015:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:55:21.008:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:55:21.008:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:55:21.104:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:55:26.624","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:55:26.635","DebitOrderNumber":""}
+2021-03-11 13:55:36.044:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:55:36.044:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:55:40.006:[设备控制线程],线程存活日志检测
+2021-03-11 13:55:41.010:[业务管理线程],线程存活日志检测
+2021-03-11 13:55:43.011:[支付通讯线程],线程存活日志检测
+2021-03-11 13:55:51.005:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:55:51.005:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:55:51.101:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:55:56.627","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:55:56.637","DebitOrderNumber":""}
+2021-03-11 13:55:52.037:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:55:52.037:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:56:08.034:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:56:08.034:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:56:21.002:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:56:21.002:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:56:21.098:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:56:26.624","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:56:26.634","DebitOrderNumber":""}
+2021-03-11 13:56:24.071:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:56:24.071:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:56:40.016:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:56:40.016:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:56:51.000:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:56:51.000:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:56:51.096:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:56:56.619","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:56:56.628","DebitOrderNumber":""}
+2021-03-11 13:56:56.041:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:56:56.041:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:57:12.062:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:57:12.062:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:57:21.009:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:57:21.009:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:57:21.105:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:57:26.627","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:57:26.638","DebitOrderNumber":""}
+2021-03-11 13:57:28.047:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:57:28.047:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:57:44.008:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:57:44.008:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:57:51.003:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:57:51.003:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:57:51.099:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:57:56.626","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:57:56.637","DebitOrderNumber":""}
+2021-03-11 13:58:00.077:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:58:00.077:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:58:16.050:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:58:16.050:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:58:21.000:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:58:21.000:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:58:21.096:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:58:26.621","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:58:26.632","DebitOrderNumber":""}
+2021-03-11 13:58:32.055:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:58:32.055:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:58:48.088:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:58:48.088:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:58:51.013:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:58:51.013:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:58:51.113:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:58:56.639","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:58:56.650","DebitOrderNumber":""}
+2021-03-11 13:59:04.049:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:04.049:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:20.066:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:20.066:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:21.011:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:59:21.011:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:59:21.107:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 13:59:26.633","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 13:59:26.641","DebitOrderNumber":""}
+2021-03-11 13:59:00.018:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:00.018:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:16.051:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:16.051:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:32.016:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:32.016:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:48.053:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:48.053:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 13:59:51.001:[设备控制线程],线程存活日志检测
+2021-03-11 13:59:51.005:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 13:59:51.005:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 13:59:51.113:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:00:28.795","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:00:28.805","DebitOrderNumber":""}
+2021-03-11 13:59:52.002:[业务管理线程],线程存活日志检测
+2021-03-11 13:59:54.002:[支付通讯线程],线程存活日志检测
+2021-03-11 14:00:04.030:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:00:04.030:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:00:20.023:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:00:20.023:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:00:21.011:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:00:21.011:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:00:21.119:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:00:58.800","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:00:58.810","DebitOrderNumber":""}
+2021-03-11 14:00:36.068:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:00:36.068:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:00:51.000:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:00:51.000:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:00:51.092:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:01:28.776","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:01:28.784","DebitOrderNumber":""}
+2021-03-11 14:00:52.049:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:00:52.049:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:01:08.046:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:01:08.046:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:01:21.010:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:01:21.010:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:01:21.106:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:01:58.790","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:01:58.800","DebitOrderNumber":""}
+2021-03-11 14:01:24.007:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:01:24.007:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:01:40.040:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:01:40.040:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:01:51.007:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:01:51.007:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:01:51.099:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:02:28.783","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:02:28.791","DebitOrderNumber":""}
+2021-03-11 14:01:56.025:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:01:56.025:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:02:12.078:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:02:12.078:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:02:21.012:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:02:21.012:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:02:21.104:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:02:58.788","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:02:58.799","DebitOrderNumber":""}
+2021-03-11 14:02:28.011:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:02:28.011:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:02:44.092:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:02:44.092:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:02:51.006:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:02:51.006:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:02:51.102:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:03:28.784","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:03:28.794","DebitOrderNumber":""}
+2021-03-11 14:03:00.033:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:00.033:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:00.737:[ETC特情业务],特情处理开始接口(IF_EventDealStart)调用开始,参数:{"EventDealStart":{"SpecialEventNo":"4B745F268B524BA7B911EDF9FCC7A43C","MessageCode":"001","Data":{"VehPlate":"","VehPlateColor":0,"VehClass":0,"VehType":1,"VehSeatCount":6,"axleCount":2,"CardNum":"0","EventStartTime":"2021-03-11 14:03:00","EventDescribe":"卡内入口无效","EventTypeNo":16,"EventTypeName":"卡内入口无效","mediaType":1,"mediaNo":"0","isDiscount":1,"enStationId":"0","enTollLaneId":"1","enTime":"2021-03-11 14:03:00","passId":"0","exitFeeType":5,"holidayFreeTag":0,"gantryCount":0,"passGantrys":"0","tollFee":"0","pathRatePriorty":0}}}
+2021-03-11 14:03:00.933:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"4B745F268B524BA7B911EDF9FCC7A43C","MessageCode":"009","Data":{"NotifyType":1}}}
+2021-03-11 14:03:01.033:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:03:01.241:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:03:04.850:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"4B745F268B524BA7B911EDF9FCC7A43C","MessageCode":"009","Data":{"NotifyType":3}}}
+2021-03-11 14:03:05.090:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:03:07.071:[ETC特情业务],费额显示接口(IF_EventShowFeeInfo)调用开始,参数:{"EventShowFeeInfo":{"SpecialEventNo":"4B745F268B524BA7B911EDF9FCC7A43C","MessageCode":"007","VehPlate":"豫ABK539","PayType":1,"DefaultFeeItemNo":1,"FeeCount":1,"FeeInfo":[{"Entry":"河南郑州沟赵站","PathInfo":"0000-9999","Fee":"3610","ChargeType":2,"ItemNo":1}],"TotalVehNum":1,"VehQueue":[{"Index":0,"VehPlate":"豫ABK539","VehPlateColor":0,"Fee":"3610","DealResult":0,"FailReason":""}]}}
+2021-03-11 14:03:07.215:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:07.215:00001310#[主进程响应]接口调用开始:(IF_DebitMoney)<?xml version="1.0" encoding="GB2312"?><DebitParamContext><Version>1.0</Version><Data><OverTime>30000</OverTime><OperationMode>1</OperationMode><Debit><PayIdentifier>A0057502F23F4558BD963CF879305074</PayIdentifier><Money>3610</Money><SubTime>2021-03-11 14:03:05</SubTime><Type>1</Type><PayCertificateType>0</PayCertificateType></Debit><Vehicle><Type>1</Type><Class>1</Class><License>蓝豫ABK539</License><VLColor>0</VLColor><AutoPlate><AutoLicense>蓝豫ABK539</AutoLicense><AutoColor>0</AutoColor></AutoPlate><AxisCount>0</AxisCount><Weight>0</Weight></Vehicle><Operation><PassCertificateType>1</PassCertificateType><CardID>0</CardID><TollDate>20210311</TollDate><ShiftID>2</ShiftID></Operation><Entry><RoadID>108</RoadID><AreaID>4101</AreaID><StationID>31014</StationID><StationName>河南郑州沟赵站</StationName><Time>2021-03-11 14:03:05</Time><LaneID>0</LaneID><License>04209DDF8CE8</License><VColor>0</VColor><VClass>1</VClass><VType>1</VType></Entry></Data></DebitParamContext>
+2021-03-11 14:03:07.215:Query ImageID and TaskID from LPR
+2021-03-11 14:03:07.215:00001310#[主进程响应]接口调用结束:IF_DebitMoney,耗时:0ms
+2021-03-11 14:03:07.223:00001DBC#[支付处理单元]开始交易,识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:03:07.223:00001DBC#[支付处理单元]未启用代扣,不进行代扣处理
+2021-03-11 14:03:07.223:00001DBC#[支付处理单元]代扣执行码:-1
+2021-03-11 14:03:07.223:00001DBC#[支付处理单元]开始获取支付凭证
+2021-03-11 14:03:07.223:00001DBC#[支付处理单元]获取支付凭证等待时间(ms):30000
+2021-03-11 14:03:07.319:[设备控制线程],接收到指令，执行扣款流程操作(扫码),交易标识:
+2021-03-11 14:03:16.014:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:16.014:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:32.007:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:32.007:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:37.152:00001310#[主进程响应]接口调用开始:(IF_DebitCancel)<?xml version="1.0" encoding="GB2312"?><DebitCancelParamContext><Version>1.0</Version><ProvinceID>63</ProvinceID><Data><TradeKeyItem><PayIdentifier>A0057502F23F4558BD963CF879305074</PayIdentifier></TradeKeyItem></Data></DebitCancelParamContext>
+2021-03-11 14:03:37.152:00001310#[支付处理单元]中断此交易，交易识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:03:37.160:00001310#[支付处理单元]撤单数据插入数据库成功，识别码：A0057502F23F4558BD963CF879305074
+2021-03-11 14:03:37.160:00001310#[主进程响应]接口调用结束:IF_DebitCancel,耗时:8ms
+2021-03-11 14:03:37.160:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:37.160:[主进程响应],设置交互界面接口(IF_SetMMI)调用开始(返回TRUE)
+2021-03-11 14:03:37.184:00001DBC#[支付处理单元]取消交易，不再获取支付凭证
+2021-03-11 14:03:37.184:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:1,执行结果:255
+2021-03-11 14:03:37.184:00001DBC#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:03:37.200:[设备控制线程],接收到指令，控制设备停止扫码操作
+2021-03-11 14:03:37.264:[ETC特情业务],支付结果展示接口(IF_EventPayResultDisplay)调用开始,参数:{"EventPayResultShow":{"SpecialEventNo":"4B745F268B524BA7B911EDF9FCC7A43C","MessageCode":"006","EventInfo":{"RequestTime":"2021-03-11 14:03:37","RequestType":"004","PayResult":5,"Describe":"支付失败","TimeLimit":"360"}}}
+2021-03-11 14:03:37.280:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:04:14.965","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:04:14.977","DebitOrderNumber":""}
+2021-03-11 14:03:37.280:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:2,执行结果:255
+2021-03-11 14:03:37.296:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:03:37.296:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:03:37.324:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:37.324:00001310#[主进程响应]接口调用开始:(IF_DebitMoney)<?xml version="1.0" encoding="GB2312"?><DebitParamContext><Version>1.0</Version><Data><OverTime>30000</OverTime><OperationMode>1</OperationMode><Debit><PayIdentifier>C568EBEA718D4DA5AC01189056A3DD0B</PayIdentifier><Money>3610</Money><SubTime>2021-03-11 14:03:05</SubTime><Type>1</Type><PayCertificateType>0</PayCertificateType></Debit><Vehicle><Type>1</Type><Class>1</Class><License>蓝豫ABK539</License><VLColor>0</VLColor><AutoPlate><AutoLicense>蓝豫ABK539</AutoLicense><AutoColor>0</AutoColor></AutoPlate><AxisCount>0</AxisCount><Weight>0</Weight></Vehicle><Operation><PassCertificateType>1</PassCertificateType><CardID>0</CardID><TollDate>20210311</TollDate><ShiftID>2</ShiftID></Operation><Entry><RoadID>108</RoadID><AreaID>4101</AreaID><StationID>31014</StationID><StationName>河南郑州沟赵站</StationName><Time>2021-03-11 14:03:05</Time><LaneID>0</LaneID><License>04209DDF8CE8</License><VColor>0</VColor><VClass>1</VClass><VType>1</VType></Entry></Data></DebitParamContext>
+2021-03-11 14:03:37.324:Query ImageID and TaskID from LPR
+2021-03-11 14:03:37.324:00001310#[主进程响应]接口调用结束:IF_DebitMoney,耗时:0ms
+2021-03-11 14:03:37.396:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:04:15.083","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:04:15.095","DebitOrderNumber":""}
+2021-03-11 14:03:37.416:00001DBC#[支付处理单元]开始交易,识别码:C568EBEA718D4DA5AC01189056A3DD0B
+2021-03-11 14:03:37.416:00001DBC#[支付处理单元]未启用代扣,不进行代扣处理
+2021-03-11 14:03:37.416:00001DBC#[支付处理单元]代扣执行码:-1
+2021-03-11 14:03:37.416:00001DBC#[支付处理单元]开始获取支付凭证
+2021-03-11 14:03:37.416:00001DBC#[支付处理单元]获取支付凭证等待时间(ms):30000
+2021-03-11 14:03:37.528:[设备控制线程],接收到指令，执行扣款流程操作(扫码),交易标识:
+2021-03-11 14:03:37.628:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:03:48.088:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:03:48.088:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:02.000:[设备控制线程],线程存活日志检测
+2021-03-11 14:04:03.008:[业务管理线程],线程存活日志检测
+2021-03-11 14:04:04.009:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:04.009:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:05.009:[支付通讯线程],线程存活日志检测
+2021-03-11 14:04:07.234:00001310#[主进程响应]接口调用开始:(IF_DebitCancel)<?xml version="1.0" encoding="GB2312"?><DebitCancelParamContext><Version>1.0</Version><ProvinceID>63</ProvinceID><Data><TradeKeyItem><PayIdentifier>C568EBEA718D4DA5AC01189056A3DD0B</PayIdentifier></TradeKeyItem></Data></DebitCancelParamContext>
+2021-03-11 14:04:07.234:00001310#[支付处理单元]中断此交易，交易识别码:C568EBEA718D4DA5AC01189056A3DD0B
+2021-03-11 14:04:07.238:00001310#[支付处理单元]撤单数据插入数据库成功，识别码：C568EBEA718D4DA5AC01189056A3DD0B
+2021-03-11 14:04:07.238:00001310#[主进程响应]接口调用结束:IF_DebitCancel,耗时:4ms
+2021-03-11 14:04:07.274:00001DBC#[支付处理单元]取消交易，不再获取支付凭证
+2021-03-11 14:04:07.274:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:1,执行结果:255
+2021-03-11 14:04:07.274:00001DBC#[支付处理单元]发起撤单请求，识别码:C568EBEA718D4DA5AC01189056A3DD0B
+2021-03-11 14:04:07.282:[设备控制线程],接收到指令，控制设备停止扫码操作
+2021-03-11 14:04:07.346:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:07.346:[主进程响应],设置交互界面接口(IF_SetMMI)调用开始(返回TRUE)
+2021-03-11 14:04:07.346:[ETC特情业务],支付结果展示接口(IF_EventPayResultDisplay)调用开始,参数:{"EventPayResultShow":{"SpecialEventNo":"4B745F268B524BA7B911EDF9FCC7A43C","MessageCode":"006","EventInfo":{"RequestTime":"2021-03-11 14:04:07","RequestType":"004","PayResult":5,"Describe":"支付失败","TimeLimit":"360"}}}
+2021-03-11 14:04:07.366:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:04:45.053","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"C568EBEA718D4DA5AC01189056A3DD0B","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:04:45.064","DebitOrderNumber":""}
+2021-03-11 14:04:07.366:00001DBC#[支付处理单元]通知调用者处理结果,功能代码:2,执行结果:255
+2021-03-11 14:04:07.386:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:04:07.386:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:04:07.482:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:04:45.164","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:04:45.176","DebitOrderNumber":""}
+2021-03-11 14:04:07.674:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:04:20.102:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:20.102:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:36.035:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:36.035:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:37.011:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:04:37.011:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:04:37.107:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:05:14.792","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:05:14.802","DebitOrderNumber":""}
+2021-03-11 14:04:52.096:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:04:52.096:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:05:05.964:[ETC特情业务],特情处理结束接口(IF_EventDealStop)调用开始,参数:{"EventDealStop":{"SpecialEventNo":"4B745F268B524BA7B911EDF9FCC7A43C","MessageCode":"008","EventEndCases":{"EventVehPlate":"","EventEndTime":"2021-03-11 14:05:05","EventDescribe":"无入口信息","EventEndReason":"特情处理完成,支付成功","EventHandleMethodNo":3,"EventHandleMethodName":"终端处理"}}}
+2021-03-11 14:05:06.196:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:05:07.004:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:05:07.004:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:05:07.104:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:05:44.787","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:05:44.800","DebitOrderNumber":""}
+2021-03-11 14:05:08.005:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:05:08.005:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:05:24.078:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:05:24.078:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:05:37.006:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:05:37.006:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:05:37.098:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:06:14.785","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:06:14.796","DebitOrderNumber":""}
+2021-03-11 14:05:40.011:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:05:40.011:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:05:56.048:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:05:56.048:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:06:07.011:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:06:07.011:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:06:07.107:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:06:44.793","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:06:44.804","DebitOrderNumber":""}
+2021-03-11 14:06:12.025:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:06:12.025:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:06:28.098:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:06:28.098:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:06:37.008:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:06:37.008:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:06:37.100:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:07:14.792","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:07:14.801","DebitOrderNumber":""}
+2021-03-11 14:06:44.075:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:06:44.075:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:00.036:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:00.036:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:07.002:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:07:07.002:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:07:07.098:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:07:44.785","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:07:44.796","DebitOrderNumber":""}
+2021-03-11 14:07:16.029:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:16.029:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:32.006:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:32.006:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:37.011:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:07:37.011:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:07:37.103:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:08:14.792","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:08:14.802","DebitOrderNumber":""}
+2021-03-11 14:07:40.828:[ETC特情业务],特情处理开始接口(IF_EventDealStart)调用开始,参数:{"EventDealStart":{"SpecialEventNo":"B0266ADC7208443B800291A5D38534A8","MessageCode":"001","Data":{"VehPlate":"","VehPlateColor":0,"VehClass":0,"VehType":1,"VehSeatCount":6,"axleCount":2,"CardNum":"0","EventStartTime":"2021-03-11 14:07:40","EventDescribe":"无标签车辆.","EventTypeNo":1,"EventTypeName":"无标签车辆.","mediaType":1,"mediaNo":"0","isDiscount":1,"enStationId":"0","enTollLaneId":"1","enTime":"2021-03-11 14:07:40","passId":"0","exitFeeType":5,"holidayFreeTag":0,"gantryCount":0,"passGantrys":"0","tollFee":"0","pathRatePriorty":0}}}
+2021-03-11 14:07:40.996:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"B0266ADC7208443B800291A5D38534A8","MessageCode":"009","Data":{"NotifyType":1}}}
+2021-03-11 14:07:41.196:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:07:41.300:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:07:48.095:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:48.095:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:07:48.819:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"B0266ADC7208443B800291A5D38534A8","MessageCode":"009","Data":{"NotifyType":3}}}
+2021-03-11 14:07:49.047:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:07:49.203:[ETC特情业务],车辆信息确认接口(IF_EventCheckVehInfo)调用开始,参数:{"EventCheckVehInfo":{"SpecialEventNo":"B0266ADC7208443B800291A5D38534A8","MessageCode":"003","EventInfo":{"VehPlateSnapImage":"xxxxxx","CameraSnapImage":"xxxxxx","RequestTime":"2021-03-11 14:07:49","RequestType":"004","EventDescribe":"确认车辆信息是否正确","MMIDemand":"交互诉求","TimeLimit":"360"},"MMIContent":{"VehPlate":"蒙X10041","VehPlateColor":0,"VehClass":0,"VehType":1,"AxisCount":2,"EntryTime":"2021-03-11 14:07:49"}}}
+2021-03-11 14:08:04.040:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:08:04.040:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:08:07.001:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:08:07.001:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:08:07.097:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:08:44.786","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:08:44.799","DebitOrderNumber":""}
+2021-03-11 14:08:13.018:[设备控制线程],线程存活日志检测
+2021-03-11 14:08:14.015:[业务管理线程],线程存活日志检测
+2021-03-11 14:08:16.015:[支付通讯线程],线程存活日志检测
+2021-03-11 14:08:20.009:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:08:20.009:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:08:36.102:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:08:36.102:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:08:37.014:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:08:37.014:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:08:37.106:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:09:14.799","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:09:14.808","DebitOrderNumber":""}
+2021-03-11 14:08:52.071:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:08:52.071:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:07.007:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:09:07.007:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:09:07.103:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:09:44.793","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:09:44.804","DebitOrderNumber":""}
+2021-03-11 14:09:08.044:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:08.044:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:13.929:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:09:15.134:[ETC特情业务],最小费额授权接口(IF_EventFeeAuthorize)调用开始,参数:{"Authorize":{"SpecialEventNo":"B0266ADC7208443B800291A5D38534A8","MessageCode":"011","VehPlate":"蒙X10041","VehPlateColor":0,"Data":{"authorizeType":0,"authorizeReason":"在线计费异常"}}}
+2021-03-11 14:09:24.005:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:24.005:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:30.623:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:09:30.943:[ETC特情业务],费额显示接口(IF_EventShowFeeInfo)调用开始,参数:{"EventShowFeeInfo":{"SpecialEventNo":"B0266ADC7208443B800291A5D38534A8","MessageCode":"007","VehPlate":"蒙X10041","PayType":2,"DefaultFeeItemNo":1,"FeeCount":1,"FeeInfo":[{"Entry":"河南郑州南站","PathInfo":"0000-9999","Fee":"1865","ChargeType":3,"ItemNo":1}],"TotalVehNum":1,"VehQueue":[{"Index":0,"VehPlate":"蒙X10041","VehPlateColor":0,"Fee":"1865","DealResult":0,"FailReason":""}]}}
+2021-03-11 14:09:37.001:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:09:37.001:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:09:37.105:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:10:14.785","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:10:14.796","DebitOrderNumber":""}
+2021-03-11 14:09:40.014:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:40.014:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:56.039:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:56.039:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:09:58.111:[ETC特情业务],特情处理结束接口(IF_EventDealStop)调用开始,参数:{"EventDealStop":{"SpecialEventNo":"B0266ADC7208443B800291A5D38534A8","MessageCode":"008","EventEndCases":{"EventVehPlate":"","EventEndTime":"2021-03-11 14:09:58","EventDescribe":"无入口信息","EventEndReason":"特情处理完成,支付成功","EventHandleMethodNo":3,"EventHandleMethodName":"终端处理"}}}
+2021-03-11 14:09:58.311:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:10:07.006:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:10:07.006:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:10:07.098:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:10:44.792","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:10:44.802","DebitOrderNumber":""}
+2021-03-11 14:10:12.092:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:10:12.092:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:10:28.033:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:10:28.033:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:10:37.015:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:10:37.015:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:10:37.111:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:11:14.802","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:11:14.814","DebitOrderNumber":""}
+2021-03-11 14:10:44.102:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:10:44.102:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:11:00.051:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:11:00.051:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:11:07.009:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:11:07.009:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:11:07.113:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:11:44.798","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:11:44.809","DebitOrderNumber":""}
+2021-03-11 14:11:16.036:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:11:16.036:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:11:24.746:[ETC特情业务],特情处理开始接口(IF_EventDealStart)调用开始,参数:{"EventDealStart":{"SpecialEventNo":"8BF4C49B115C4CE8B8C13F5880AA5F7F","MessageCode":"001","Data":{"VehPlate":"","VehPlateColor":0,"VehClass":0,"VehType":1,"VehSeatCount":6,"axleCount":2,"CardNum":"0","EventStartTime":"2021-03-11 14:11:24","EventDescribe":"无标签车辆.","EventTypeNo":1,"EventTypeName":"无标签车辆.","mediaType":1,"mediaNo":"0","isDiscount":1,"enStationId":"0","enTollLaneId":"1","enTime":"2021-03-11 14:11:24","passId":"0","exitFeeType":5,"holidayFreeTag":0,"gantryCount":0,"passGantrys":"0","tollFee":"0","pathRatePriorty":0}}}
+2021-03-11 14:11:24.926:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"8BF4C49B115C4CE8B8C13F5880AA5F7F","MessageCode":"009","Data":{"NotifyType":1}}}
+2021-03-11 14:11:25.130:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:11:25.234:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:11:32.053:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:11:32.053:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:11:37.010:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:11:37.010:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:11:37.106:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:12:14.801","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:12:14.812","DebitOrderNumber":""}
+2021-03-11 14:11:41.740:[ETC特情业务],卡操作提示接口(IF_EventCardOperationNotify)调用开始,参数:{"CardOperationNotify":{"SpecialEventNo":"8BF4C49B115C4CE8B8C13F5880AA5F7F","MessageCode":"009","Data":{"NotifyType":3}}}
+2021-03-11 14:11:41.928:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:11:42.080:[ETC特情业务],车辆信息确认接口(IF_EventCheckVehInfo)调用开始,参数:{"EventCheckVehInfo":{"SpecialEventNo":"8BF4C49B115C4CE8B8C13F5880AA5F7F","MessageCode":"003","EventInfo":{"VehPlateSnapImage":"xxxxxx","CameraSnapImage":"xxxxxx","RequestTime":"2021-03-11 14:11:42","RequestType":"004","EventDescribe":"确认车辆信息是否正确","MMIDemand":"交互诉求","TimeLimit":"360"},"MMIContent":{"VehPlate":"蒙X10041","VehPlateColor":0,"VehClass":0,"VehType":1,"AxisCount":2,"EntryTime":"2021-03-11 14:11:42"}}}
+2021-03-11 14:11:48.010:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:11:48.010:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:12:04.103:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:12:04.103:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:12:07.004:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:12:07.004:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:12:07.100:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:12:44.794","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:12:44.806","DebitOrderNumber":""}
+2021-03-11 14:12:13.249:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:12:14.494:[ETC特情业务],最小费额授权接口(IF_EventFeeAuthorize)调用开始,参数:{"Authorize":{"SpecialEventNo":"8BF4C49B115C4CE8B8C13F5880AA5F7F","MessageCode":"011","VehPlate":"蒙X10041","VehPlateColor":0,"Data":{"authorizeType":0,"authorizeReason":"在线计费异常"}}}
+2021-03-11 14:12:20.044:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:12:20.044:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:12:24.017:[设备控制线程],线程存活日志检测
+2021-03-11 14:12:25.005:[业务管理线程],线程存活日志检测
+2021-03-11 14:12:27.006:[支付通讯线程],线程存活日志检测
+2021-03-11 14:12:36.045:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:12:36.045:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:12:37.001:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:12:37.001:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:12:37.093:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:13:14.788","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:13:14.801","DebitOrderNumber":""}
+2021-03-11 14:12:52.030:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:12:52.030:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:13:07.010:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:13:07.010:00001DBC#[支付处理单元]发起撤单请求，识别码:B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:13:07.106:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:13:44.800","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"B3029C34B45B4B1E9589DF98A58A94F6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:13:44.811","DebitOrderNumber":""}
+2021-03-11 14:13:08.103:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:13:08.103:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:13:24.096:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:13:24.096:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:13:37.004:00001DBC#[支付处理单元]删除过期撤单缓存，识别码:B3029C34B45B4B1E9589DF98A58A94F6,创建时间:2021-03-11 13:52:21
+2021-03-11 14:13:37.012:00001DBC#[支付处理单元]删除撤单缓存成功，识别码：B3029C34B45B4B1E9589DF98A58A94F6
+2021-03-11 14:13:37.012:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:03BF4864BC2D44D584EC643E272313B6,创建时间:2021-03-11 13:52:38
+2021-03-11 14:13:37.012:00001DBC#[支付处理单元]发起撤单请求，识别码:03BF4864BC2D44D584EC643E272313B6
+2021-03-11 14:13:37.104:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:14:14.802","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"03BF4864BC2D44D584EC643E272313B6","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:14:14.810","DebitOrderNumber":""}
+2021-03-11 14:13:40.001:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:13:40.001:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:13:56.074:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:13:56.074:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:14:07.001:00001DBC#[支付处理单元]删除过期撤单缓存，识别码:03BF4864BC2D44D584EC643E272313B6,创建时间:2021-03-11 13:52:38
+2021-03-11 14:14:07.005:00001DBC#[支付处理单元]删除撤单缓存成功，识别码：03BF4864BC2D44D584EC643E272313B6
+2021-03-11 14:14:07.009:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:14:07.009:00001DBC#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:14:07.105:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:14:44.804","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:14:44.815","DebitOrderNumber":""}
+2021-03-11 14:14:12.051:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:14:12.051:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:14:28.016:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:14:28.016:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:14:37.006:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:14:37.006:00001DBC#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:14:37.102:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:15:14.800","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:15:14.811","DebitOrderNumber":""}
+2021-03-11 14:14:44.081:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:14:44.081:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:15:00.046:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:15:00.046:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:15:07.000:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:15:07.000:00001DBC#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:15:07.096:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:15:44.792","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:15:44.803","DebitOrderNumber":""}
+2021-03-11 14:15:16.003:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:15:16.003:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:15:32.084:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:15:32.084:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:15:37.009:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:15:37.009:00001DBC#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:15:37.105:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:16:14.804","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:16:14.815","DebitOrderNumber":""}
+2021-03-11 14:15:42.135:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:15:42.403:[ETC特情业务],费额显示接口(IF_EventShowFeeInfo)调用开始,参数:{"EventShowFeeInfo":{"SpecialEventNo":"8BF4C49B115C4CE8B8C13F5880AA5F7F","MessageCode":"007","VehPlate":"蒙X10041","PayType":2,"DefaultFeeItemNo":1,"FeeCount":1,"FeeInfo":[{"Entry":"河南郑州南站","PathInfo":"0000-9999","Fee":"1865","ChargeType":3,"ItemNo":1}],"TotalVehNum":1,"VehQueue":[{"Index":0,"VehPlate":"蒙X10041","VehPlateColor":0,"Fee":"1865","DealResult":0,"FailReason":""}]}}
+2021-03-11 14:15:48.097:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:15:48.097:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:16:04.094:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:16:04.094:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:16:07.007:00001DBC#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:16:07.007:00001DBC#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:16:07.099:00001DBC#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:16:44.799","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:16:44.809","DebitOrderNumber":""}
+2021-03-11 14:16:09.583:[ETC特情业务],特情处理结束接口(IF_EventDealStop)调用开始,参数:{"EventDealStop":{"SpecialEventNo":"8BF4C49B115C4CE8B8C13F5880AA5F7F","MessageCode":"008","EventEndCases":{"EventVehPlate":"","EventEndTime":"2021-03-11 14:16:09","EventDescribe":"无入口信息","EventEndReason":"特情处理完成,支付成功","EventHandleMethodNo":3,"EventHandleMethodName":"终端处理"}}}
+2021-03-11 14:16:09.779:[EtcEvent应答通知线程]：开始调用回调函数通知车道软件特情处理结果......
+2021-03-11 14:16:20.071:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:16:20.071:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+
+
+
+
+2021-03-11 14:20:00.482:日志系统内部信息：日志系统启动
+
+2021-03-11 14:20:00.482:/*************************************程序启动(业务1.1.3.4 - 设备1.0.0.1)*************************************/
+2021-03-11 14:20:00.482:LPR超时设置:100ms
+2021-03-11 14:20:00.482:Connect CommonBus Success
+2021-03-11 14:20:00.497:00000CD8#[ETC请求处理单元]ETC支付处理单元创建成功
+2021-03-11 14:20:00.497:00000CD8#[ETC请求处理单元]ETC授权处理单元创建成功
+2021-03-11 14:20:00.497:[主进程响应],组件初始化接口(IF_InitEnvironment)调用开始
+2021-03-11 14:20:00.497:[主进程响应],组件初始化接口(IF_InitEnvironment)，内部参数配置:新郑新区(省份编码:41,区域编码:4101,路段编码:108,站点编码:35010)
+2021-03-11 14:20:00.497:000013FC#[过程调用]调用开始:(支付数据缓存查询)
+2021-03-11 14:20:00.497:00000CD8#Error:Load DDsCommonBus fail ,path:f:\softdata\payset\DDsCommonBus.dll,code:126
+2021-03-11 14:20:00.497:00000CD8#Error:Can't connect dds
+2021-03-11 14:20:00.497:[主进程响应],组件初始化接口(IF_InitEnvironment)，代扣动态库未启用!)
+2021-03-11 14:20:00.497:init 1
+2021-03-11 14:20:00.497:[主进程响应],组件初始化接口(IF_InitEnvironment)调用结束
+2021-03-11 14:20:00.497:000013FC#[过程调用]调用结束:支付数据缓存查询,耗时:0ms
+2021-03-11 14:20:00.497:0000143C#支付处理单元创建成功
+2021-03-11 14:20:00.497:0000125C#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:20:00.497:0000125C#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:20:00.497:【产生错误】[支付通讯线程]:支付平台心跳验证,第 1 次
+2021-03-11 14:20:00.685:send length:10
+2021-03-11 14:20:00.700:0000125C#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:20:38.409","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:20:38.419","DebitOrderNumber":""}
+2021-03-11 14:20:00.716:[设备控制线程],线程存活日志检测
+2021-03-11 14:20:00.919:[播报更新线程]: 线程已启动，正在读取本地配置信息
+2021-03-11 14:20:00.919:[播报更新线程]: 正在读取本地已有播报数据
+2021-03-11 14:20:01.325:[业务管理线程],线程存活日志检测
+2021-03-11 14:20:02.145:【产生错误】[支付通讯线程]:支付平台心跳验证,第 2 次
+2021-03-11 14:20:02.221:send length:10
+2021-03-11 14:20:02.957:[ETC特情业务],ETC特情初始化接口(IF_EventInitEnvironment3)调用开始
+2021-03-11 14:20:02.957:m_EtcAreaId:4101,m_EtcAreaName:河南,m_EtcRoadId:108,m_EtcRoadName:河南高速
+2021-03-11 14:20:02.957:[ETC特情业务],初始化接口(IF_EventInitEnvironment3),参数配置:(省份:41,区域:4101#河南#108#河南高速,站:35010#新郑新区,回调指针:1C2E610,回调函数:0000)
+2021-03-11 14:20:02.957:[EtcEvent应答通知线程]：线程开始启动,线程ID: 6964
+2021-03-11 14:20:03.225:【产生错误】[支付通讯线程]:支付平台心跳验证,第 3 次
+2021-03-11 14:20:03.301:send length:10
+2021-03-11 14:20:03.961:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:20:03.961:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:20:04.305:[支付通讯线程]:检索未递交的撤单数据出现异常，无法获取到有效数据
+2021-03-11 14:20:04.305:[支付通讯线程],线程存活日志检测
+2021-03-11 14:20:10.115:id:1,strXML:<?xmlversion="1.0"encoding="GB2312"?><DisplayContext><Version>1.0</Version><ProvinceID>41</ProvinceID><VerifyCode>0</VerifyCode><Data><Type>102</Type><Context>高速纵横欢迎您</Context></Data></DisplayContext>
+2021-03-11 14:20:19.006:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:20:19.006:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+
+
+
+
+2021-03-11 14:20:35.852:日志系统内部信息：日志系统启动
+
+2021-03-11 14:20:35.852:/*************************************程序启动(业务1.1.3.4 - 设备1.0.0.1)*************************************/
+2021-03-11 14:20:35.852:LPR超时设置:100ms
+2021-03-11 14:20:35.852:Connect CommonBus Success
+2021-03-11 14:20:35.852:00001C88#[ETC请求处理单元]ETC支付处理单元创建成功
+2021-03-11 14:20:35.852:00001C88#[ETC请求处理单元]ETC授权处理单元创建成功
+2021-03-11 14:20:35.852:[主进程响应],组件初始化接口(IF_InitEnvironment)调用开始
+2021-03-11 14:20:35.852:[主进程响应],组件初始化接口(IF_InitEnvironment)，内部参数配置:新郑新区(省份编码:41,区域编码:4101,路段编码:108,站点编码:35010)
+2021-03-11 14:20:35.852:00001944#[过程调用]调用开始:(支付数据缓存查询)
+2021-03-11 14:20:35.868:00001C88#Error:Load DDsCommonBus fail ,path:f:\softdata\payset\DDsCommonBus.dll,code:126
+2021-03-11 14:20:35.868:00001944#[过程调用]调用结束:支付数据缓存查询,耗时:16ms
+2021-03-11 14:20:35.868:00001C88#Error:Can't connect dds
+2021-03-11 14:20:35.868:[主进程响应],组件初始化接口(IF_InitEnvironment)，代扣动态库未启用!)
+2021-03-11 14:20:35.868:init 1
+2021-03-11 14:20:35.868:[主进程响应],组件初始化接口(IF_InitEnvironment)调用结束
+2021-03-11 14:20:35.868:000016F4#支付处理单元创建成功
+2021-03-11 14:20:35.868:00000A2C#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:20:35.868:00000A2C#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:20:35.868:【产生错误】[支付通讯线程]:支付平台心跳验证,第 1 次
+2021-03-11 14:20:35.993:send length:10
+2021-03-11 14:20:36.009:00000A2C#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:21:13.270","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:21:13.280","DebitOrderNumber":""}
+2021-03-11 14:20:36.071:[设备控制线程],线程存活日志检测
+2021-03-11 14:20:36.274:[播报更新线程]: 线程已启动，正在读取本地配置信息
+2021-03-11 14:20:36.274:[播报更新线程]: 正在读取本地已有播报数据
+2021-03-11 14:20:36.681:[业务管理线程],线程存活日志检测
+2021-03-11 14:20:37.002:【产生错误】[支付通讯线程]:支付平台心跳验证,第 2 次
+2021-03-11 14:20:37.014:send length:10
+2021-03-11 14:20:37.807:[ETC特情业务],ETC特情初始化接口(IF_EventInitEnvironment3)调用开始
+2021-03-11 14:20:37.807:m_EtcAreaId:4101,m_EtcAreaName:河南,m_EtcRoadId:108,m_EtcRoadName:河南高速
+2021-03-11 14:20:37.807:[ETC特情业务],初始化接口(IF_EventInitEnvironment3),参数配置:(省份:41,区域:4101#河南#108#河南高速,站:35010#新郑新区,回调指针:1B8E610,回调函数:0000)
+2021-03-11 14:20:37.807:[EtcEvent应答通知线程]：线程开始启动,线程ID: 4724
+2021-03-11 14:20:38.019:【产生错误】[支付通讯线程]:支付平台心跳验证,第 3 次
+2021-03-11 14:20:38.095:send length:10
+2021-03-11 14:20:38.811:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:20:38.811:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:20:39.099:[支付通讯线程]:检索未递交的撤单数据出现异常，无法获取到有效数据
+2021-03-11 14:20:39.099:[支付通讯线程],线程存活日志检测
+2021-03-11 14:20:45.105:id:1,strXML:<?xmlversion="1.0"encoding="GB2312"?><DisplayContext><Version>1.0</Version><ProvinceID>41</ProvinceID><VerifyCode>0</VerifyCode><Data><Type>102</Type><Context>高速纵横欢迎您</Context></Data></DisplayContext>
+2021-03-11 14:20:54.040:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:20:54.040:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:21:05.011:00000A2C#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:21:05.011:00000A2C#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:21:05.103:00000A2C#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:21:42.419","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:21:42.429","DebitOrderNumber":""}
+2021-03-11 14:21:10.101:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:21:10.101:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:21:26.010:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:21:26.010:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:21:35.005:00000A2C#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:21:35.005:00000A2C#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:21:35.097:00000A2C#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:22:12.412","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:22:12.421","DebitOrderNumber":""}
+2021-03-11 14:21:42.087:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:21:42.087:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:21:58.068:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:21:58.068:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:22:05.014:00000A2C#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:22:05.014:00000A2C#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:22:05.110:00000A2C#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:22:42.424","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:22:42.435","DebitOrderNumber":""}
+2021-03-11 14:22:14.049:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:22:14.049:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:22:30.018:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:22:30.018:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:22:35.007:00000A2C#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:22:35.007:00000A2C#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:22:35.099:00000A2C#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:23:12.416","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:23:12.428","DebitOrderNumber":""}
+2021-03-11 14:22:46.103:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:22:46.103:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:23:02.064:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:23:02.064:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:23:05.001:00000A2C#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:23:05.001:00000A2C#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:23:05.093:00000A2C#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:23:42.411","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:23:42.420","DebitOrderNumber":""}
+2021-03-11 14:23:18.093:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:23:18.093:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:23:34.054:[主进程响应],检测组件状态接口(IF_GetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:23:34.054:[ETC特情业务],获取设备状态接口(IF_EventGetComponentStatus)调用开始(返回TRUE)
+2021-03-11 14:23:35.010:00000A2C#[支付处理单元]从撤单缓存获取一条数据，识别码:A0057502F23F4558BD963CF879305074,创建时间:2021-03-11 14:03:37
+2021-03-11 14:23:35.010:00000A2C#[支付处理单元]发起撤单请求，识别码:A0057502F23F4558BD963CF879305074
+2021-03-11 14:23:35.106:00000A2C#[支付网络线程]撤单失败:{"Status":13,"ReData":"","ReceveTime":"2021-03-11 14:24:12.424","Message":"没找到交易凭证 可能已经超过撤单有效期","Version":"1.0","PayIdentifier":"A0057502F23F4558BD963CF879305074","PackageType":5,"RecordMatchCode":"","ResponseTime":"2021-03-11 14:24:12.434","DebitOrderNumber":""}

@@ -1,0 +1,304 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\TestDevIF.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TestDevIF.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About TestDevIF"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "TestDevIF Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2017",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_TESTDEVIF_DIALOG DIALOGEX 0, 0, 867, 343
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+CAPTION "特微智能 ETC特情辅助终端测试工具(河南省混合车道版)   作者：zhudaoming"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,23,198,832,135,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+    EDITTEXT        IDC_EDIT4,89,222,203,53,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    GROUPBOX        "ETC特情测试",IDC_STATIC,23,7,227,188
+    DEFPUSHBUTTON   "0 加载中间件",IDC_BTN_INITENV,34,18,55,16
+    PUSHBUTTON      "3 车道特情开始",IDC_BTN_EVENTSTART,34,36,208,16
+    PUSHBUTTON      "4 确认车辆队列",IDC_BTN_CHECKVEHQUEUE,34,54,63,16
+    PUSHBUTTON      "5 确认车辆信息",IDC_BTN_CHECKVEHINFO,179,54,63,16
+    PUSHBUTTON      "6 入口(有)确认",IDC_BTN_CHECKENTRYINFO,179,72,63,16
+    PUSHBUTTON      "7 费额显示(多)",IDC_BTN_SHOWFEEINFO,107,72,63,16
+    PUSHBUTTON      "8 支付成功展示",IDC_BTN_PAYRESULTSHOW,107,90,63,16
+    PUSHBUTTON      "启动扫码",IDC_BTN_STARTSCAN,466,239,40,13,NOT WS_VISIBLE
+    PUSHBUTTON      "停止扫码",IDC_BTN_STOPSCAN,493,241,36,13,NOT WS_VISIBLE
+    PUSHBUTTON      "14 车道特情结束",IDC_BTN_EVENTSTOP,34,160,208,16
+    GROUPBOX        "移动支付测试",IDC_STATIC,255,7,254,189
+    PUSHBUTTON      "2 特情环境初始化",IDC_BTN_INITENV2,168,18,74,16
+    PUSHBUTTON      "7 费额显示(单)",IDC_BTN_SHOWFEEINFOSINGLE,34,72,63,16
+    PUSHBUTTON      "8 支付失败展示",IDC_BTN_PAYRESULTSHOWFAIL,34,90,63,16
+    PUSHBUTTON      "4 取消确认队列",IDC_BTN_CHECKVEHQUEUEDEL,107,54,63,16
+    PUSHBUTTON      "6 入口(无)确认",IDC_BTN_CHECKENTRYINFO_NONE,179,90,63,16
+    PUSHBUTTON      "9 刷卡提示",IDC_BTN_SWIPECARD,34,107,63,16
+    PUSHBUTTON      "9 读写卡提示",IDC_BTN_RWCARD,107,107,63,16
+    PUSHBUTTON      "10 车辆队列修改",IDC_BTN_FIXVEHQUEUE,179,107,63,16
+    LTEXT           "金额：",IDC_STATIC,262,20,24,8
+    EDITTEXT        IDC_EDIT_Money,285,18,46,14,ES_AUTOHSCROLL
+    LTEXT           "车型：",IDC_STATIC,338,38,25,8
+    COMBOBOX        IDC_COMBO_type,362,36,52,155,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "重量：",IDC_STATIC,426,20,25,8
+    EDITTEXT        IDC_EDIT_Weight,451,18,46,14,ES_AUTOHSCROLL
+    LTEXT           "轴数：",IDC_STATIC,262,58,25,8
+    EDITTEXT        IDC_EDIT_axisnum,285,55,46,14,ES_AUTOHSCROLL
+    LTEXT           "车牌：",IDC_STATIC,338,58,25,8
+    EDITTEXT        IDC_EDIT_plate,362,55,53,14,ES_AUTOHSCROLL
+    LTEXT           "入口：",IDC_STATIC,262,38,25,8
+    EDITTEXT        IDC_EDIT_entry,285,36,46,14,ES_AUTOHSCROLL
+    LTEXT           "超时：",IDC_STATIC,338,20,25,8
+    EDITTEXT        IDC_EDIT_timeout,362,18,52,14,ES_AUTOHSCROLL
+    LTEXT           "操作员：",IDC_STATIC,418,38,33,8
+    EDITTEXT        IDC_EDIT_operator,451,36,47,14,ES_AUTOHSCROLL
+    LTEXT           "操作员ID：",IDC_STATIC,411,74,40,8
+    EDITTEXT        IDC_EDIT_operatorID,451,73,47,14,ES_AUTOHSCROLL
+    LTEXT           "余额：",IDC_STATIC,425,57,25,8
+    EDITTEXT        IDC_EDIT_balance,451,55,48,14,ES_AUTOHSCROLL
+    LTEXT           "卡号：",IDC_STATIC,262,75,25,8
+    EDITTEXT        IDC_EDIT_cardno,285,73,115,14,ES_AUTOHSCROLL
+    LTEXT           "交易识别码：",IDC_STATIC,264,94,49,8
+    EDITTEXT        IDC_EDIT_PayIdentifier,312,91,187,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "1 支付环境初始化",IDC_BTN_init,92,18,74,16
+    PUSHBUTTON      "扣款JSON",IDC_BTN_debit,260,114,58,15
+    PUSHBUTTON      "撤单JSON",IDC_BTN_cancel,320,114,58,15
+    PUSHBUTTON      "11 费额授权",IDC_BTN_FeeAuthorize,34,125,63,16
+    GROUPBOX        "自由配置特情参数",IDC_STATIC,515,7,192,189
+    EDITTEXT        IDC_EDIT_EtcEventParam,521,18,179,154,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    CONTROL         "使用默认特情参数",IDC_RADIO_DefaultParam,"Button",BS_AUTORADIOBUTTON,527,178,80,10
+    CONTROL         "使用配置特情参数",IDC_RADIO_FreeParam,"Button",BS_AUTORADIOBUTTON,620,178,80,10
+    PUSHBUTTON      "关闭特情环境",IDC_BTN_DestroyEtcEvent,34,177,63,16
+    PUSHBUTTON      "关闭支付环境",IDC_BTN_DestroyNetPay,106,177,63,16
+    PUSHBUTTON      "卸载中间件",IDC_BTN_FreeDll,179,177,63,16
+    PUSHBUTTON      "MTC错误信息",IDC_BTN_GetLastErrorDesc,441,131,58,15
+    PUSHBUTTON      "扣款XML",IDC_BTN_DebitXML,260,131,58,15
+    PUSHBUTTON      "撤单XML",IDC_BTN_CancelXML,320,131,58,15
+    PUSHBUTTON      "特情设备状态",IDC_BTN_EtcDevStatus,34,142,63,16
+    PUSHBUTTON      "MTC设备状态",IDC_BTN_NetPayDevStatus,441,114,58,15
+    GROUPBOX        "GUI循环播放",IDC_STATIC,713,7,142,189
+    PUSHBUTTON      "启动循环播放1",IDC_BTN_GUIPlay1Start,718,30,64,16
+    PUSHBUTTON      "启动循环播放2",IDC_BTN_GUIPlay2Start,718,59,64,16
+    PUSHBUTTON      "停止循环播放2",IDC_BTN_GUIPlay2Stop,787,59,64,16
+    PUSHBUTTON      "启动循环播放3",IDC_BTN_GUIPlay3Start,718,86,64,16
+    PUSHBUTTON      "停止循环播放3",IDC_BTN_GUIPlay3Stop,787,86,64,16
+    PUSHBUTTON      "停止循环播放1",IDC_BTN_GUIPlay1Stop,787,30,64,16
+    PUSHBUTTON      "启动总循环播放",IDC_BTN_GUIPlayTotalStart,718,113,64,16
+    PUSHBUTTON      "停止总循环播放",IDC_BTN_GUIPlayTotalStop,719,136,64,16,NOT WS_VISIBLE
+    PUSHBUTTON      "停止总循环播放",IDC_BTN_GUIPlayTotalStop2,787,113,64,16
+    PUSHBUTTON      "12 其他授权",IDC_BTN_Authorize,107,125,63,16
+    PUSHBUTTON      "13 删除队列结果",IDC_BTN_DelVehQueueResult,179,125,63,16
+    PUSHBUTTON      "ETC错误信息",IDC_BTN_EtcGetLastErrorDescrip,107,142,63,16
+    PUSHBUTTON      "现金流水上传",IDC_BTN_InvoiceDataTrans,381,114,58,15
+    PUSHBUTTON      "现金流水撤销",IDC_BTN_InvoiceDataCancel,381,131,58,15
+    PUSHBUTTON      "MTC清屏JSON",IDC_BTN_MtcClearScreen,260,152,58,15
+    PUSHBUTTON      "ETC自助模式",ID_BTN_Change2ETCMode,179,142,63,16
+    PUSHBUTTON      "MTC人工模式",IDC_BTN_Change2MTCMode,320,152,58,15
+    PUSHBUTTON      "MTC清屏XML",IDC_BTN_MtcClearScreenXML,260,168,58,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "TestDevIF.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "TestDevIF.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TESTDEVIF_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 860
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 336
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TESTDEVIF_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_type, 0x403, 4, 0
+0xbf31, 0x00cd, 
+    IDC_COMBO_type, 0x403, 4, 0
+0xbf32, 0x00cd, 
+    IDC_COMBO_type, 0x403, 4, 0
+0xbf33, 0x00cd, 
+    IDC_COMBO_type, 0x403, 4, 0
+0xbf34, 0x00cd, 
+    IDC_COMBO_type, 0x403, 4, 0
+0xbb31, 0x00f5, 
+    IDC_COMBO_type, 0x403, 4, 0
+0xbb32, 0x00f5, 
+    IDC_COMBO_type, 0x403, 4, 0
+0xbb33, 0x00f5, 
+    IDC_COMBO_type, 0x403, 4, 0
+0xbb34, 0x00f5, 
+    IDC_COMBO_type, 0x403, 4, 0
+0xbb35, 0x00f5, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About TestDevIF..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\TestDevIF.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

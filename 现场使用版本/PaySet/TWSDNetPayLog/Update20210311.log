@@ -1,0 +1,326 @@
+
+
+
+
+2021-03-11 13:01:58.286:日志系统内部信息：日志系统启动
+2021-03-11 13:01:58.286:Connect CommonBus Success
+2021-03-11 13:01:58.286:[Update Module]System IP:123.56.5.221
+2021-03-11 13:01:58.286:[Update Module]System Port:8092
+2021-03-11 13:01:58.286:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:01:58.286:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2021-03-11 13:01:58.286:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2021-03-11 13:03:09.080:[Update Module]Check update
+2021-03-11 13:03:09.080:[Update Module]New post start
+2021-03-11 13:03:09.080:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:03:09.080:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:03:09.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:03:09.1","version":"1.0"}
+
+2021-03-11 13:03:13.081:Http exception:12002
+2021-03-11 13:03:13.081:[Update Module]No update available!
+
+
+
+
+2021-03-11 13:19:04.901:日志系统内部信息：日志系统启动
+2021-03-11 13:19:04.901:Connect CommonBus Success
+2021-03-11 13:19:04.901:[Update Module]System IP:10.41.255.3
+2021-03-11 13:19:04.901:[Update Module]System Port:8092
+2021-03-11 13:19:04.901:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:19:04.901:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2021-03-11 13:19:04.901:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2021-03-11 13:20:15.046:[Update Module]Check update
+2021-03-11 13:20:15.046:[Update Module]New post start
+2021-03-11 13:20:15.046:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:20:15.046:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:20:15.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:20:15.1","version":"1.0"}
+
+2021-03-11 13:20:16.082:Http exception:12029
+2021-03-11 13:20:16.082:[Update Module]No update available!
+2021-03-11 13:21:16.084:[Update Module]Check update
+2021-03-11 13:21:16.084:[Update Module]New post start
+2021-03-11 13:21:16.084:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:21:16.084:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:21:16.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:21:16.1","version":"1.0"}
+
+2021-03-11 13:21:17.125:Http exception:12029
+2021-03-11 13:21:17.125:[Update Module]No update available!
+
+
+
+
+2021-03-11 13:21:59.990:日志系统内部信息：日志系统启动
+2021-03-11 13:21:59.990:Connect CommonBus Success
+2021-03-11 13:21:59.990:[Update Module]System IP:10.41.255.3
+2021-03-11 13:21:59.990:[Update Module]System Port:8092
+2021-03-11 13:21:59.990:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:21:59.990:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2021-03-11 13:21:59.990:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+
+
+
+
+2021-03-11 13:24:14.050:日志系统内部信息：日志系统启动
+2021-03-11 13:24:14.050:Connect CommonBus Success
+2021-03-11 13:24:14.050:[Update Module]System IP:10.41.255.3
+2021-03-11 13:24:14.050:[Update Module]System Port:8092
+2021-03-11 13:24:14.050:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:24:14.050:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2021-03-11 13:24:14.050:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+
+
+
+
+2021-03-11 13:35:09.722:日志系统内部信息：日志系统启动
+2021-03-11 13:35:09.722:Connect CommonBus Success
+2021-03-11 13:35:09.722:[Update Module]System IP:10.41.255.3
+2021-03-11 13:35:09.722:[Update Module]System Port:8092
+2021-03-11 13:35:09.722:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:35:09.722:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2021-03-11 13:35:09.722:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2021-03-11 13:36:20.864:[Update Module]Check update
+2021-03-11 13:36:20.864:[Update Module]New post start
+2021-03-11 13:36:20.864:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:36:20.864:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:36:20.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:36:20.1","version":"1.0"}
+
+2021-03-11 13:36:21.904:Http exception:12029
+2021-03-11 13:36:21.904:[Update Module]No update available!
+
+
+
+
+2021-03-11 13:47:18.687:日志系统内部信息：日志系统启动
+2021-03-11 13:47:18.687:Connect CommonBus Success
+2021-03-11 13:47:18.687:[Update Module]System IP:10.41.255.3
+2021-03-11 13:47:18.687:[Update Module]System Port:8092
+2021-03-11 13:47:18.687:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:47:18.687:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2021-03-11 13:47:18.687:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2021-03-11 13:48:28.945:[Update Module]Check update
+2021-03-11 13:48:28.945:[Update Module]New post start
+2021-03-11 13:48:28.945:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:48:28.945:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:48:28.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:48:28.1","version":"1.0"}
+
+2021-03-11 13:48:29.981:Http exception:12029
+2021-03-11 13:48:29.981:[Update Module]No update available!
+2021-03-11 13:49:29.686:[Update Module]Check update
+2021-03-11 13:49:29.686:[Update Module]New post start
+2021-03-11 13:49:29.686:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:49:29.686:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:49:29.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:49:29.1","version":"1.0"}
+
+2021-03-11 13:49:30.722:Http exception:12029
+2021-03-11 13:49:30.722:[Update Module]No update available!
+2021-03-11 13:50:30.857:[Update Module]Check update
+2021-03-11 13:50:30.857:[Update Module]New post start
+2021-03-11 13:50:30.857:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:50:30.857:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:50:30.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:50:30.1","version":"1.0"}
+
+2021-03-11 13:50:31.889:Http exception:12029
+2021-03-11 13:50:31.889:[Update Module]No update available!
+2021-03-11 13:51:31.028:[Update Module]Check update
+2021-03-11 13:51:31.028:[Update Module]New post start
+2021-03-11 13:51:31.028:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:51:31.028:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:51:31.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:51:31.1","version":"1.0"}
+
+2021-03-11 13:51:32.060:Http exception:12029
+2021-03-11 13:51:32.060:[Update Module]No update available!
+2021-03-11 13:52:32.199:[Update Module]Check update
+2021-03-11 13:52:32.199:[Update Module]New post start
+2021-03-11 13:52:32.199:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:52:32.199:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:52:32.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:52:32.1","version":"1.0"}
+
+2021-03-11 13:52:33.235:Http exception:12029
+2021-03-11 13:52:33.235:[Update Module]No update available!
+2021-03-11 13:53:33.370:[Update Module]Check update
+2021-03-11 13:53:33.370:[Update Module]New post start
+2021-03-11 13:53:33.370:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:53:33.370:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:53:33.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:53:33.1","version":"1.0"}
+
+2021-03-11 13:53:34.402:Http exception:12029
+2021-03-11 13:53:34.402:[Update Module]No update available!
+2021-03-11 13:54:34.541:[Update Module]Check update
+2021-03-11 13:54:34.541:[Update Module]New post start
+2021-03-11 13:54:34.541:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:54:34.541:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:54:34.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:54:34.1","version":"1.0"}
+
+2021-03-11 13:54:35.574:Http exception:12029
+2021-03-11 13:54:35.574:[Update Module]No update available!
+2021-03-11 13:55:35.712:[Update Module]Check update
+2021-03-11 13:55:35.712:[Update Module]New post start
+2021-03-11 13:55:35.712:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:55:35.712:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:55:35.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:55:35.1","version":"1.0"}
+
+2021-03-11 13:55:36.745:Http exception:12029
+2021-03-11 13:55:36.745:[Update Module]No update available!
+2021-03-11 13:56:36.883:[Update Module]Check update
+2021-03-11 13:56:36.883:[Update Module]New post start
+2021-03-11 13:56:36.883:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:56:36.883:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:56:36.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:56:36.1","version":"1.0"}
+
+2021-03-11 13:56:37.916:Http exception:12029
+2021-03-11 13:56:37.916:[Update Module]No update available!
+2021-03-11 13:57:37.050:[Update Module]Check update
+2021-03-11 13:57:37.050:[Update Module]New post start
+2021-03-11 13:57:37.050:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:57:37.050:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:57:37.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:57:37.1","version":"1.0"}
+
+2021-03-11 13:57:38.087:Http exception:12029
+2021-03-11 13:57:38.087:[Update Module]No update available!
+2021-03-11 13:58:48.232:[Update Module]Check update
+2021-03-11 13:58:48.232:[Update Module]New post start
+2021-03-11 13:58:48.232:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:58:48.232:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:58:48.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:58:48.1","version":"1.0"}
+
+2021-03-11 13:58:49.269:Http exception:12029
+2021-03-11 13:58:49.269:[Update Module]No update available!
+2021-03-11 13:59:39.306:[Update Module]Check update
+2021-03-11 13:59:39.306:[Update Module]New post start
+2021-03-11 13:59:39.306:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 13:59:39.306:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 13:59:39.1","roadId":"108","stationId":"35010","time":"2021-03-11 13:59:39.1","version":"1.0"}
+
+2021-03-11 13:59:40.342:Http exception:12029
+2021-03-11 13:59:40.342:[Update Module]No update available!
+2021-03-11 14:00:40.485:[Update Module]Check update
+2021-03-11 14:00:40.485:[Update Module]New post start
+2021-03-11 14:00:40.485:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:00:40.485:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:00:40.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:00:40.1","version":"1.0"}
+
+2021-03-11 14:00:41.517:Http exception:12029
+2021-03-11 14:00:41.517:[Update Module]No update available!
+2021-03-11 14:01:41.656:[Update Module]Check update
+2021-03-11 14:01:41.656:[Update Module]New post start
+2021-03-11 14:01:41.656:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:01:41.656:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:01:41.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:01:41.1","version":"1.0"}
+
+2021-03-11 14:01:42.688:Http exception:12029
+2021-03-11 14:01:42.688:[Update Module]No update available!
+2021-03-11 14:02:42.827:[Update Module]Check update
+2021-03-11 14:02:42.827:[Update Module]New post start
+2021-03-11 14:02:42.827:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:02:42.827:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:02:42.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:02:42.1","version":"1.0"}
+
+2021-03-11 14:02:43.860:Http exception:12029
+2021-03-11 14:02:43.860:[Update Module]No update available!
+2021-03-11 14:03:43.990:[Update Module]Check update
+2021-03-11 14:03:43.990:[Update Module]New post start
+2021-03-11 14:03:43.990:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:03:43.990:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:03:43.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:03:43.1","version":"1.0"}
+
+2021-03-11 14:03:45.023:Http exception:12029
+2021-03-11 14:03:45.023:[Update Module]No update available!
+2021-03-11 14:04:44.161:[Update Module]Check update
+2021-03-11 14:04:44.161:[Update Module]New post start
+2021-03-11 14:04:44.161:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:04:44.161:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:04:44.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:04:44.1","version":"1.0"}
+
+2021-03-11 14:04:45.193:Http exception:12029
+2021-03-11 14:04:45.193:[Update Module]No update available!
+2021-03-11 14:05:45.336:[Update Module]Check update
+2021-03-11 14:05:45.336:[Update Module]New post start
+2021-03-11 14:05:45.336:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:05:45.336:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:05:45.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:05:45.1","version":"1.0"}
+
+2021-03-11 14:05:46.373:Http exception:12029
+2021-03-11 14:05:46.373:[Update Module]No update available!
+2021-03-11 14:06:46.507:[Update Module]Check update
+2021-03-11 14:06:46.507:[Update Module]New post start
+2021-03-11 14:06:46.507:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:06:46.507:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:06:46.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:06:46.1","version":"1.0"}
+
+2021-03-11 14:06:47.540:Http exception:12029
+2021-03-11 14:06:47.540:[Update Module]No update available!
+2021-03-11 14:07:47.678:[Update Module]Check update
+2021-03-11 14:07:47.678:[Update Module]New post start
+2021-03-11 14:07:47.678:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:07:47.678:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:07:47.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:07:47.1","version":"1.0"}
+
+2021-03-11 14:07:48.711:Http exception:12029
+2021-03-11 14:07:48.711:[Update Module]No update available!
+2021-03-11 14:08:58.853:[Update Module]Check update
+2021-03-11 14:08:58.853:[Update Module]New post start
+2021-03-11 14:08:58.853:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:08:58.853:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:08:58.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:08:58.1","version":"1.0"}
+
+2021-03-11 14:08:59.885:Http exception:12029
+2021-03-11 14:08:59.885:[Update Module]No update available!
+2021-03-11 14:09:49.997:[Update Module]Check update
+2021-03-11 14:09:49.997:[Update Module]New post start
+2021-03-11 14:09:49.997:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:09:49.997:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:09:49.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:09:49.1","version":"1.0"}
+
+2021-03-11 14:09:51.029:Http exception:12029
+2021-03-11 14:09:51.029:[Update Module]No update available!
+2021-03-11 14:10:50.168:[Update Module]Check update
+2021-03-11 14:10:50.168:[Update Module]New post start
+2021-03-11 14:10:50.168:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:10:50.168:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:10:50.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:10:50.1","version":"1.0"}
+
+2021-03-11 14:10:51.200:Http exception:12029
+2021-03-11 14:10:51.200:[Update Module]No update available!
+2021-03-11 14:11:51.319:[Update Module]Check update
+2021-03-11 14:11:51.319:[Update Module]New post start
+2021-03-11 14:11:51.319:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:11:51.319:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:11:51.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:11:51.1","version":"1.0"}
+
+2021-03-11 14:11:52.355:Http exception:12029
+2021-03-11 14:11:52.355:[Update Module]No update available!
+2021-03-11 14:12:52.490:[Update Module]Check update
+2021-03-11 14:12:52.490:[Update Module]New post start
+2021-03-11 14:12:52.490:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:12:52.490:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:12:52.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:12:52.1","version":"1.0"}
+
+2021-03-11 14:12:53.526:Http exception:12029
+2021-03-11 14:12:53.526:[Update Module]No update available!
+2021-03-11 14:13:53.669:[Update Module]Check update
+2021-03-11 14:13:53.669:[Update Module]New post start
+2021-03-11 14:13:53.669:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:13:53.669:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:13:53.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:13:53.1","version":"1.0"}
+
+2021-03-11 14:13:54.701:Http exception:12029
+2021-03-11 14:13:54.701:[Update Module]No update available!
+2021-03-11 14:14:54.840:[Update Module]Check update
+2021-03-11 14:14:54.840:[Update Module]New post start
+2021-03-11 14:14:54.840:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:14:54.840:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:14:54.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:14:54.1","version":"1.0"}
+
+2021-03-11 14:14:55.872:Http exception:12029
+2021-03-11 14:14:55.872:[Update Module]No update available!
+2021-03-11 14:15:55.015:[Update Module]Check update
+2021-03-11 14:15:55.015:[Update Module]New post start
+2021-03-11 14:15:55.015:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:15:55.015:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:15:55.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:15:55.1","version":"1.0"}
+
+2021-03-11 14:15:56.047:Http exception:12029
+2021-03-11 14:15:56.047:[Update Module]No update available!
+
+
+
+
+2021-03-11 14:20:00.482:日志系统内部信息：日志系统启动
+2021-03-11 14:20:00.482:Connect CommonBus Success
+2021-03-11 14:20:00.482:[Update Module]System IP:10.41.255.3
+2021-03-11 14:20:00.482:[Update Module]System Port:8092
+2021-03-11 14:20:00.482:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:20:00.482:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2021-03-11 14:20:00.482:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+
+
+
+
+2021-03-11 14:20:35.852:日志系统内部信息：日志系统启动
+2021-03-11 14:20:35.852:Connect CommonBus Success
+2021-03-11 14:20:35.852:[Update Module]System IP:10.41.255.3
+2021-03-11 14:20:35.852:[Update Module]System Port:8092
+2021-03-11 14:20:35.852:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:20:35.852:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2021-03-11 14:20:35.852:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+2021-03-11 14:21:46.948:[Update Module]Check update
+2021-03-11 14:21:46.948:[Update Module]New post start
+2021-03-11 14:21:46.948:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:21:46.948:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:21:46.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:21:46.1","version":"1.0"}
+
+2021-03-11 14:21:47.985:Http exception:12029
+2021-03-11 14:21:47.985:[Update Module]No update available!
+2021-03-11 14:22:47.123:[Update Module]Check update
+2021-03-11 14:22:47.123:[Update Module]New post start
+2021-03-11 14:22:47.123:[Update Module]URL:/trawe-itms/middleware/u_update_query
+2021-03-11 14:22:47.123:[Update Module]Data:{"aes":"","deviceNo":"","deviceType":"TR200-V2.0-M1","infos":[{"infoFileName":"httwsddevice.dll","infoNo":"1.0.0.1","infoVersion":"","type":2},{"infoFileName":"twitc_agency.dll","infoNo":"0.0.0.0","infoVersion":"","type":2},{"infoFileName":"twsdnetpaycore.dll","infoNo":"1.1.3.4","infoVersion":"","type":2},{"infoFileName":"twupdatecore.dll","infoNo":"1.0.1.4","infoVersion":"","type":2}],"laneId":"133","md5":"123fsdfsd","packageType":4,"provinceId":41,"queryTime":"2021-03-11 14:22:47.1","roadId":"108","stationId":"35010","time":"2021-03-11 14:22:47.1","version":"1.0"}
+
+2021-03-11 14:22:48.155:Http exception:12029
+2021-03-11 14:22:48.155:[Update Module]No update available!

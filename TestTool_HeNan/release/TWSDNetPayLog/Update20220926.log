@@ -1,0 +1,38 @@
+
+
+
+
+2022-09-26 19:54:21.662:日志系统内部信息：日志系统启动
+
+
+
+
+2022-09-26 19:59:16.007:日志系统内部信息：日志系统启动
+2022-09-26 19:59:16.007:Connect CommonBus Success
+2022-09-26 19:59:16.085:[Update Module]System IP:192.168.5.83
+2022-09-26 19:59:16.085:[Update Module]System Port:80
+2022-09-26 19:59:16.085:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2022-09-26 19:59:16.085:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2022-09-26 19:59:16.085:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+
+
+
+
+2022-09-26 20:04:55.593:日志系统内部信息：日志系统启动
+2022-09-26 20:04:55.594:Connect CommonBus Success
+2022-09-26 20:04:55.682:[Update Module]System IP:192.168.5.83
+2022-09-26 20:04:55.682:[Update Module]System Port:80
+2022-09-26 20:04:55.682:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2022-09-26 20:04:55.682:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2022-09-26 20:04:55.682:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm
+
+
+
+
+2022-09-26 20:10:50.648:日志系统内部信息：日志系统启动
+2022-09-26 20:10:50.649:Connect CommonBus Success
+2022-09-26 20:10:50.728:[Update Module]System IP:192.168.5.83
+2022-09-26 20:10:50.728:[Update Module]System Port:80
+2022-09-26 20:10:50.728:[Update Module]System Query URL:/trawe-itms/middleware/u_update_query
+2022-09-26 20:10:50.728:[Update Module]System Download URL:/trawe-itms/middleware/u_update_download
+2022-09-26 20:10:50.728:[Update Module]System Verify URL:/trawe-itms/middleware/u_update_confirm

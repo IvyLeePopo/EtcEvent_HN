@@ -1,0 +1,946 @@
+2022-03-01 18:27:38.885:进行初始化操作
+2022-03-01 18:27:38.885:构造 CommonFrameMain
+2022-03-01 18:27:38.891:begin load lib
+2022-03-01 18:27:38.892:读取文件配置
+2022-03-01 18:27:38.892:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-01 18:27:38.892:配置文件内容
+2022-03-01 18:27:38.893:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-01 18:27:38.893:配置解析成功
+2022-03-01 18:27:38.893:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-01 18:27:38.911:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-01 18:27:38.912:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-01 18:27:38.918:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-01 18:27:38.919:before into InitUpdateCore
+2022-03-01 18:27:38.922:init:开始调用
+2022-03-01 18:27:38.924:before step into ITC
+2022-03-01 18:27:38.925:before step into LPR
+2022-03-01 18:27:38.925:before step into assign
+2022-03-01 18:27:38.925:before return
+2022-03-02 20:24:26.028:进行初始化操作
+2022-03-02 20:24:26.028:构造 CommonFrameMain
+2022-03-02 20:24:26.035:begin load lib
+2022-03-02 20:24:26.035:读取文件配置
+2022-03-02 20:24:26.036:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-02 20:24:26.036:配置文件内容
+2022-03-02 20:24:26.036:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-02 20:24:26.036:配置解析成功
+2022-03-02 20:24:26.037:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-02 20:24:26.067:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-02 20:24:26.068:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-02 20:24:26.073:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-02 20:24:26.073:before into InitUpdateCore
+2022-03-02 20:24:26.075:init:开始调用
+2022-03-02 20:24:26.076:before step into ITC
+2022-03-02 20:24:26.077:before step into LPR
+2022-03-02 20:24:26.077:before step into assign
+2022-03-02 20:24:26.077:before return
+2022-03-02 20:27:08.364:进行初始化操作
+2022-03-02 20:27:08.364:构造 CommonFrameMain
+2022-03-02 20:27:08.368:begin load lib
+2022-03-02 20:27:08.368:读取文件配置
+2022-03-02 20:27:08.369:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-02 20:27:08.369:配置文件内容
+2022-03-02 20:27:08.369:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-02 20:27:08.369:配置解析成功
+2022-03-02 20:27:08.370:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-02 20:27:08.389:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-02 20:27:08.390:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-02 20:27:08.394:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-02 20:27:08.395:before into InitUpdateCore
+2022-03-02 20:27:08.397:init:开始调用
+2022-03-02 20:27:08.398:before step into ITC
+2022-03-02 20:27:08.398:before step into LPR
+2022-03-02 20:27:08.398:before step into assign
+2022-03-02 20:27:08.399:before return
+2022-03-02 20:43:17.298:进行初始化操作
+2022-03-02 20:43:17.299:构造 CommonFrameMain
+2022-03-02 20:43:17.303:begin load lib
+2022-03-02 20:43:17.303:读取文件配置
+2022-03-02 20:43:17.303:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-02 20:43:17.303:配置文件内容
+2022-03-02 20:43:17.304:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-02 20:43:17.304:配置解析成功
+2022-03-02 20:43:17.304:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-02 20:43:17.324:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-02 20:43:17.325:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-02 20:43:17.330:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-02 20:43:17.330:before into InitUpdateCore
+2022-03-02 20:43:17.332:init:开始调用
+2022-03-02 20:43:17.333:before step into ITC
+2022-03-02 20:43:17.333:before step into LPR
+2022-03-02 20:43:17.334:before step into assign
+2022-03-02 20:43:17.334:before return
+2022-03-02 21:07:10.377:进行初始化操作
+2022-03-02 21:07:10.377:构造 CommonFrameMain
+2022-03-02 21:07:10.381:begin load lib
+2022-03-02 21:07:10.381:读取文件配置
+2022-03-02 21:07:10.381:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-02 21:07:10.382:配置文件内容
+2022-03-02 21:07:10.382:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-02 21:07:10.382:配置解析成功
+2022-03-02 21:07:10.382:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-02 21:07:10.402:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-02 21:07:10.403:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-02 21:07:10.407:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-02 21:07:10.408:before into InitUpdateCore
+2022-03-02 21:07:10.410:init:开始调用
+2022-03-02 21:07:10.411:before step into ITC
+2022-03-02 21:07:10.412:before step into LPR
+2022-03-02 21:07:10.412:before step into assign
+2022-03-02 21:07:10.412:before return
+2022-03-02 21:21:15.805:进行初始化操作
+2022-03-02 21:21:15.806:构造 CommonFrameMain
+2022-03-02 21:21:15.809:begin load lib
+2022-03-02 21:21:15.810:读取文件配置
+2022-03-02 21:21:15.810:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-02 21:21:15.810:配置文件内容
+2022-03-02 21:21:15.811:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-02 21:21:15.811:配置解析成功
+2022-03-02 21:21:15.812:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-02 21:21:15.831:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-02 21:21:15.831:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-02 21:21:15.836:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-02 21:21:15.836:before into InitUpdateCore
+2022-03-02 21:21:15.838:init:开始调用
+2022-03-02 21:21:15.840:before step into ITC
+2022-03-02 21:21:15.840:before step into LPR
+2022-03-02 21:21:15.840:before step into assign
+2022-03-02 21:21:15.841:before return
+2022-03-03 09:54:47.229:进行初始化操作
+2022-03-03 09:54:47.256:构造 CommonFrameMain
+2022-03-03 09:54:47.261:begin load lib
+2022-03-03 09:54:47.262:读取文件配置
+2022-03-03 09:54:47.262:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 09:54:47.262:配置文件内容
+2022-03-03 09:54:47.263:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 09:54:47.263:配置解析成功
+2022-03-03 09:54:47.263:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 09:54:47.350:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 09:54:47.351:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 09:54:47.367:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 09:54:47.367:before into InitUpdateCore
+2022-03-03 09:54:47.370:init:开始调用
+2022-03-03 09:54:47.371:before step into ITC
+2022-03-03 09:54:47.372:before step into LPR
+2022-03-03 09:54:47.372:before step into assign
+2022-03-03 09:54:47.372:before return
+2022-03-03 10:16:25.410:进行初始化操作
+2022-03-03 10:16:25.410:构造 CommonFrameMain
+2022-03-03 10:16:25.415:begin load lib
+2022-03-03 10:16:25.416:读取文件配置
+2022-03-03 10:16:25.416:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 10:16:25.416:配置文件内容
+2022-03-03 10:16:25.416:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 10:16:25.417:配置解析成功
+2022-03-03 10:16:25.417:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 10:16:25.436:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 10:16:25.437:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 10:16:25.441:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 10:16:25.441:before into InitUpdateCore
+2022-03-03 10:16:25.443:init:开始调用
+2022-03-03 10:16:25.445:before step into ITC
+2022-03-03 10:16:25.445:before step into LPR
+2022-03-03 10:16:25.445:before step into assign
+2022-03-03 10:16:25.446:before return
+2022-03-03 10:19:05.065:进行初始化操作
+2022-03-03 10:19:05.065:构造 CommonFrameMain
+2022-03-03 10:19:05.069:begin load lib
+2022-03-03 10:19:05.069:读取文件配置
+2022-03-03 10:19:05.069:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 10:19:05.070:配置文件内容
+2022-03-03 10:19:05.070:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 10:19:05.070:配置解析成功
+2022-03-03 10:19:05.070:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 10:19:05.090:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 10:19:05.091:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 10:19:05.096:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 10:19:05.097:before into InitUpdateCore
+2022-03-03 10:19:05.099:init:开始调用
+2022-03-03 10:19:05.100:before step into ITC
+2022-03-03 10:19:05.101:before step into LPR
+2022-03-03 10:19:05.101:before step into assign
+2022-03-03 10:19:05.101:before return
+2022-03-03 10:22:14.563:进行初始化操作
+2022-03-03 10:22:14.563:构造 CommonFrameMain
+2022-03-03 10:22:14.567:begin load lib
+2022-03-03 10:22:14.567:读取文件配置
+2022-03-03 10:22:14.567:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 10:22:14.568:配置文件内容
+2022-03-03 10:22:14.568:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 10:22:14.568:配置解析成功
+2022-03-03 10:22:14.569:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 10:22:14.588:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 10:22:14.588:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 10:22:14.593:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 10:22:14.593:before into InitUpdateCore
+2022-03-03 10:22:14.596:init:开始调用
+2022-03-03 10:22:14.597:before step into ITC
+2022-03-03 10:22:14.597:before step into LPR
+2022-03-03 10:22:14.598:before step into assign
+2022-03-03 10:22:14.598:before return
+2022-03-03 10:33:44.623:进行初始化操作
+2022-03-03 10:33:44.624:构造 CommonFrameMain
+2022-03-03 10:33:44.628:begin load lib
+2022-03-03 10:33:44.629:读取文件配置
+2022-03-03 10:33:44.629:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 10:33:44.629:配置文件内容
+2022-03-03 10:33:44.629:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 10:33:44.630:配置解析成功
+2022-03-03 10:33:44.630:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 10:33:44.649:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 10:33:44.650:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 10:33:44.654:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 10:33:44.654:before into InitUpdateCore
+2022-03-03 10:33:44.657:init:开始调用
+2022-03-03 10:33:44.658:before step into ITC
+2022-03-03 10:33:44.659:before step into LPR
+2022-03-03 10:33:44.659:before step into assign
+2022-03-03 10:33:44.659:before return
+2022-03-03 10:35:39.519:进行初始化操作
+2022-03-03 10:35:39.520:构造 CommonFrameMain
+2022-03-03 10:35:39.523:begin load lib
+2022-03-03 10:35:39.523:读取文件配置
+2022-03-03 10:35:39.524:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 10:35:39.524:配置文件内容
+2022-03-03 10:35:39.525:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 10:35:39.525:配置解析成功
+2022-03-03 10:35:39.525:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 10:35:39.544:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 10:35:39.545:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 10:35:39.551:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 10:35:39.551:before into InitUpdateCore
+2022-03-03 10:35:39.553:init:开始调用
+2022-03-03 10:35:39.555:before step into ITC
+2022-03-03 10:35:39.555:before step into LPR
+2022-03-03 10:35:39.555:before step into assign
+2022-03-03 10:35:39.556:before return
+2022-03-03 10:41:39.096:进行初始化操作
+2022-03-03 10:41:39.096:构造 CommonFrameMain
+2022-03-03 10:41:39.100:begin load lib
+2022-03-03 10:41:39.100:读取文件配置
+2022-03-03 10:41:39.100:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 10:41:39.101:配置文件内容
+2022-03-03 10:41:39.101:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 10:41:39.101:配置解析成功
+2022-03-03 10:41:39.102:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 10:41:39.122:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 10:41:39.123:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 10:41:39.127:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 10:41:39.127:before into InitUpdateCore
+2022-03-03 10:41:39.130:init:开始调用
+2022-03-03 10:41:39.131:before step into ITC
+2022-03-03 10:41:39.132:before step into LPR
+2022-03-03 10:41:39.132:before step into assign
+2022-03-03 10:41:39.133:before return
+2022-03-03 10:50:46.286:进行初始化操作
+2022-03-03 10:50:46.287:构造 CommonFrameMain
+2022-03-03 10:50:46.291:begin load lib
+2022-03-03 10:50:46.291:读取文件配置
+2022-03-03 10:50:46.292:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 10:50:46.292:配置文件内容
+2022-03-03 10:50:46.292:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 10:50:46.293:配置解析成功
+2022-03-03 10:50:46.293:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 10:50:46.313:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 10:50:46.313:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 10:50:46.317:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 10:50:46.318:before into InitUpdateCore
+2022-03-03 10:50:46.320:init:开始调用
+2022-03-03 10:50:46.322:before step into ITC
+2022-03-03 10:50:46.322:before step into LPR
+2022-03-03 10:50:46.322:before step into assign
+2022-03-03 10:50:46.322:before return
+2022-03-03 11:36:28.129:进行初始化操作
+2022-03-03 11:36:28.130:构造 CommonFrameMain
+2022-03-03 11:36:28.133:begin load lib
+2022-03-03 11:36:28.134:读取文件配置
+2022-03-03 11:36:28.134:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 11:36:28.135:配置文件内容
+2022-03-03 11:36:28.135:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 11:36:28.135:配置解析成功
+2022-03-03 11:36:28.136:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 11:36:28.155:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 11:36:28.156:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 11:36:28.161:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 11:36:28.161:before into InitUpdateCore
+2022-03-03 11:36:28.164:init:开始调用
+2022-03-03 11:36:28.165:before step into ITC
+2022-03-03 11:36:28.165:before step into LPR
+2022-03-03 11:36:28.166:before step into assign
+2022-03-03 11:36:28.166:before return
+2022-03-03 11:42:47.002:进行初始化操作
+2022-03-03 11:42:47.002:构造 CommonFrameMain
+2022-03-03 11:42:47.005:begin load lib
+2022-03-03 11:42:47.006:读取文件配置
+2022-03-03 11:42:47.006:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 11:42:47.006:配置文件内容
+2022-03-03 11:42:47.007:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 11:42:47.007:配置解析成功
+2022-03-03 11:42:47.007:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 11:42:47.027:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 11:42:47.028:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 11:42:47.034:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 11:42:47.034:before into InitUpdateCore
+2022-03-03 11:42:47.037:init:开始调用
+2022-03-03 11:42:47.038:before step into ITC
+2022-03-03 11:42:47.039:before step into LPR
+2022-03-03 11:42:47.039:before step into assign
+2022-03-03 11:42:47.040:before return
+2022-03-03 11:49:34.975:进行初始化操作
+2022-03-03 11:49:34.976:构造 CommonFrameMain
+2022-03-03 11:49:34.980:begin load lib
+2022-03-03 11:49:34.981:读取文件配置
+2022-03-03 11:49:34.981:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 11:49:34.981:配置文件内容
+2022-03-03 11:49:34.982:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 11:49:34.982:配置解析成功
+2022-03-03 11:49:34.982:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 11:49:35.009:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 11:49:35.010:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 11:49:35.014:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 11:49:35.015:before into InitUpdateCore
+2022-03-03 11:49:35.018:init:开始调用
+2022-03-03 11:49:35.019:before step into ITC
+2022-03-03 11:49:35.019:before step into LPR
+2022-03-03 11:49:35.020:before step into assign
+2022-03-03 11:49:35.020:before return
+2022-03-03 11:51:41.464:进行初始化操作
+2022-03-03 11:51:41.464:构造 CommonFrameMain
+2022-03-03 11:51:41.468:begin load lib
+2022-03-03 11:51:41.469:读取文件配置
+2022-03-03 11:51:41.469:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 11:51:41.469:配置文件内容
+2022-03-03 11:51:41.470:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 11:51:41.470:配置解析成功
+2022-03-03 11:51:41.470:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 11:51:41.489:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 11:51:41.490:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 11:51:41.494:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 11:51:41.495:before into InitUpdateCore
+2022-03-03 11:51:41.497:init:开始调用
+2022-03-03 11:51:41.498:before step into ITC
+2022-03-03 11:51:41.498:before step into LPR
+2022-03-03 11:51:41.499:before step into assign
+2022-03-03 11:51:41.499:before return
+2022-03-03 12:02:29.982:进行初始化操作
+2022-03-03 12:02:29.983:构造 CommonFrameMain
+2022-03-03 12:02:29.987:begin load lib
+2022-03-03 12:02:29.988:读取文件配置
+2022-03-03 12:02:29.988:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 12:02:29.988:配置文件内容
+2022-03-03 12:02:29.989:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 12:02:29.989:配置解析成功
+2022-03-03 12:02:29.989:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 12:02:30.009:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 12:02:30.010:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 12:02:30.015:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 12:02:30.015:before into InitUpdateCore
+2022-03-03 12:02:30.017:init:开始调用
+2022-03-03 12:02:30.019:before step into ITC
+2022-03-03 12:02:30.019:before step into LPR
+2022-03-03 12:02:30.020:before step into assign
+2022-03-03 12:02:30.020:before return
+2022-03-03 12:06:16.941:进行初始化操作
+2022-03-03 12:06:16.942:构造 CommonFrameMain
+2022-03-03 12:06:16.946:begin load lib
+2022-03-03 12:06:16.946:读取文件配置
+2022-03-03 12:06:16.946:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 12:06:16.947:配置文件内容
+2022-03-03 12:06:16.947:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 12:06:16.947:配置解析成功
+2022-03-03 12:06:16.948:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 12:06:16.967:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 12:06:16.968:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 12:06:16.972:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 12:06:16.973:before into InitUpdateCore
+2022-03-03 12:06:16.975:init:开始调用
+2022-03-03 12:06:16.976:before step into ITC
+2022-03-03 12:06:16.977:before step into LPR
+2022-03-03 12:06:16.977:before step into assign
+2022-03-03 12:06:16.978:before return
+2022-03-03 15:23:48.944:进行初始化操作
+2022-03-03 15:23:48.973:构造 CommonFrameMain
+2022-03-03 15:23:48.979:begin load lib
+2022-03-03 15:23:48.979:读取文件配置
+2022-03-03 15:23:48.980:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 15:23:48.980:配置文件内容
+2022-03-03 15:23:48.980:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 15:23:48.981:配置解析成功
+2022-03-03 15:23:48.981:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 15:23:49.025:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 15:23:49.026:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 15:23:49.033:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 15:23:49.034:before into InitUpdateCore
+2022-03-03 15:23:49.036:init:开始调用
+2022-03-03 15:23:49.037:before step into ITC
+2022-03-03 15:23:49.038:before step into LPR
+2022-03-03 15:23:49.038:before step into assign
+2022-03-03 15:23:49.038:before return
+2022-03-03 15:28:14.383:进行初始化操作
+2022-03-03 15:28:14.384:构造 CommonFrameMain
+2022-03-03 15:28:14.388:begin load lib
+2022-03-03 15:28:14.388:读取文件配置
+2022-03-03 15:28:14.388:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 15:28:14.389:配置文件内容
+2022-03-03 15:28:14.389:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 15:28:14.389:配置解析成功
+2022-03-03 15:28:14.390:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 15:28:14.417:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 15:28:14.418:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 15:28:14.423:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 15:28:14.424:before into InitUpdateCore
+2022-03-03 15:28:14.426:init:开始调用
+2022-03-03 15:28:14.427:before step into ITC
+2022-03-03 15:28:14.427:before step into LPR
+2022-03-03 15:28:14.428:before step into assign
+2022-03-03 15:28:14.429:before return
+2022-03-03 16:05:42.267:进行初始化操作
+2022-03-03 16:05:42.291:构造 CommonFrameMain
+2022-03-03 16:05:42.391:begin load lib
+2022-03-03 16:05:42.391:读取文件配置
+2022-03-03 16:05:42.392:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 16:05:42.392:配置文件内容
+2022-03-03 16:05:42.392:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 16:05:42.393:配置解析成功
+2022-03-03 16:05:42.393:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 16:05:42.499:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 16:05:42.500:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 16:05:42.535:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 16:05:42.536:before into InitUpdateCore
+2022-03-03 16:05:42.538:init:开始调用
+2022-03-03 16:05:42.539:before step into ITC
+2022-03-03 16:05:42.539:before step into LPR
+2022-03-03 16:05:42.539:before step into assign
+2022-03-03 16:05:42.540:before return
+2022-03-03 18:50:02.697:进行初始化操作
+2022-03-03 18:50:02.733:构造 CommonFrameMain
+2022-03-03 18:50:02.753:begin load lib
+2022-03-03 18:50:02.753:读取文件配置
+2022-03-03 18:50:02.753:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 18:50:02.754:配置文件内容
+2022-03-03 18:50:02.754:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 18:50:02.754:配置解析成功
+2022-03-03 18:50:02.755:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 18:50:02.852:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 18:50:02.853:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 18:50:02.915:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 18:50:02.915:before into InitUpdateCore
+2022-03-03 18:50:02.918:init:开始调用
+2022-03-03 18:50:02.920:before step into ITC
+2022-03-03 18:50:02.920:before step into LPR
+2022-03-03 18:50:02.921:before step into assign
+2022-03-03 18:50:02.921:before return
+2022-03-03 19:00:57.031:进行初始化操作
+2022-03-03 19:00:57.032:构造 CommonFrameMain
+2022-03-03 19:00:57.035:begin load lib
+2022-03-03 19:00:57.035:读取文件配置
+2022-03-03 19:00:57.035:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 19:00:57.036:配置文件内容
+2022-03-03 19:00:57.036:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 19:00:57.036:配置解析成功
+2022-03-03 19:00:57.036:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 19:00:57.056:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 19:00:57.057:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 19:00:57.062:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 19:00:57.063:before into InitUpdateCore
+2022-03-03 19:00:57.065:init:开始调用
+2022-03-03 19:00:57.067:before step into ITC
+2022-03-03 19:00:57.067:before step into LPR
+2022-03-03 19:00:57.068:before step into assign
+2022-03-03 19:00:57.068:before return
+2022-03-03 19:03:45.392:进行初始化操作
+2022-03-03 19:03:45.392:构造 CommonFrameMain
+2022-03-03 19:03:45.396:begin load lib
+2022-03-03 19:03:45.396:读取文件配置
+2022-03-03 19:03:45.397:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-03 19:03:45.397:配置文件内容
+2022-03-03 19:03:45.398:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-03 19:03:45.398:配置解析成功
+2022-03-03 19:03:45.399:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-03 19:03:45.418:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-03 19:03:45.419:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-03 19:03:45.425:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-03 19:03:45.426:before into InitUpdateCore
+2022-03-03 19:03:45.429:init:开始调用
+2022-03-03 19:03:45.431:before step into ITC
+2022-03-03 19:03:45.431:before step into LPR
+2022-03-03 19:03:45.431:before step into assign
+2022-03-03 19:03:45.432:before return
+2022-03-17 10:33:32.736:进行初始化操作
+2022-03-17 10:33:32.755:构造 CommonFrameMain
+2022-03-17 10:33:32.777:begin load lib
+2022-03-17 10:33:32.777:读取文件配置
+2022-03-17 10:33:32.778:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 10:33:32.778:配置文件内容
+2022-03-17 10:33:32.778:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 10:33:32.779:配置解析成功
+2022-03-17 10:33:32.779:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 10:33:32.868:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 10:33:32.869:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 10:33:32.900:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 10:33:32.901:before into InitUpdateCore
+2022-03-17 10:33:32.903:init:开始调用
+2022-03-17 10:33:32.904:before step into ITC
+2022-03-17 10:33:32.904:before step into LPR
+2022-03-17 10:33:32.905:before step into assign
+2022-03-17 10:33:32.905:before return
+2022-03-17 10:34:27.056:进行初始化操作
+2022-03-17 10:34:27.057:构造 CommonFrameMain
+2022-03-17 10:34:27.060:begin load lib
+2022-03-17 10:34:27.061:读取文件配置
+2022-03-17 10:34:27.061:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 10:34:27.061:配置文件内容
+2022-03-17 10:34:27.062:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 10:34:27.062:配置解析成功
+2022-03-17 10:34:27.062:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 10:34:27.078:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 10:34:27.078:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 10:34:27.097:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 10:34:27.098:before into InitUpdateCore
+2022-03-17 10:34:27.100:init:开始调用
+2022-03-17 10:34:27.101:before step into ITC
+2022-03-17 10:34:27.102:before step into LPR
+2022-03-17 10:34:27.102:before step into assign
+2022-03-17 10:34:27.103:before return
+2022-03-17 10:38:06.209:进行初始化操作
+2022-03-17 10:38:06.209:构造 CommonFrameMain
+2022-03-17 10:38:06.213:begin load lib
+2022-03-17 10:38:06.213:读取文件配置
+2022-03-17 10:38:06.213:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 10:38:06.214:配置文件内容
+2022-03-17 10:38:06.214:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 10:38:06.214:配置解析成功
+2022-03-17 10:38:06.215:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 10:38:06.230:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 10:38:06.230:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 10:38:06.235:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 10:38:06.235:before into InitUpdateCore
+2022-03-17 10:38:06.238:init:开始调用
+2022-03-17 10:38:06.239:before step into ITC
+2022-03-17 10:38:06.240:before step into LPR
+2022-03-17 10:38:06.240:before step into assign
+2022-03-17 10:38:06.240:before return
+2022-03-17 10:40:57.201:进行初始化操作
+2022-03-17 10:40:57.201:构造 CommonFrameMain
+2022-03-17 10:40:57.204:begin load lib
+2022-03-17 10:40:57.204:读取文件配置
+2022-03-17 10:40:57.204:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 10:40:57.205:配置文件内容
+2022-03-17 10:40:57.205:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 10:40:57.205:配置解析成功
+2022-03-17 10:40:57.206:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 10:40:57.221:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 10:40:57.222:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 10:40:57.248:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 10:40:57.248:before into InitUpdateCore
+2022-03-17 10:40:57.250:init:开始调用
+2022-03-17 10:40:57.252:before step into ITC
+2022-03-17 10:40:57.252:before step into LPR
+2022-03-17 10:40:57.253:before step into assign
+2022-03-17 10:40:57.253:before return
+2022-03-17 11:50:46.172:进行初始化操作
+2022-03-17 11:50:46.234:构造 CommonFrameMain
+2022-03-17 11:50:46.237:begin load lib
+2022-03-17 11:50:46.238:读取文件配置
+2022-03-17 11:50:46.238:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 11:50:46.239:配置文件内容
+2022-03-17 11:50:46.239:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 11:50:46.239:配置解析成功
+2022-03-17 11:50:46.239:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 11:50:46.256:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 11:50:46.256:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 11:50:46.259:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 11:50:46.260:before into InitUpdateCore
+2022-03-17 11:50:46.262:init:开始调用
+2022-03-17 11:50:46.264:before step into ITC
+2022-03-17 11:50:46.264:before step into LPR
+2022-03-17 11:50:46.265:before step into assign
+2022-03-17 11:50:46.265:before return
+2022-03-17 14:39:23.051:进行初始化操作
+2022-03-17 14:39:23.121:构造 CommonFrameMain
+2022-03-17 14:39:23.126:begin load lib
+2022-03-17 14:39:23.126:读取文件配置
+2022-03-17 14:39:23.127:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 14:39:23.127:配置文件内容
+2022-03-17 14:39:23.127:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 14:39:23.128:配置解析成功
+2022-03-17 14:39:23.128:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 14:39:23.147:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 14:39:23.148:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 14:39:23.197:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 14:39:23.198:before into InitUpdateCore
+2022-03-17 14:39:23.201:init:开始调用
+2022-03-17 14:39:23.202:before step into ITC
+2022-03-17 14:39:23.203:before step into LPR
+2022-03-17 14:39:23.203:before step into assign
+2022-03-17 14:39:23.203:before return
+2022-03-17 14:42:02.954:进行初始化操作
+2022-03-17 14:42:02.955:构造 CommonFrameMain
+2022-03-17 14:42:02.959:begin load lib
+2022-03-17 14:42:02.959:读取文件配置
+2022-03-17 14:42:02.959:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 14:42:02.960:配置文件内容
+2022-03-17 14:42:02.960:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 14:42:02.960:配置解析成功
+2022-03-17 14:42:02.961:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 14:42:02.979:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 14:42:02.980:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 14:42:02.986:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 14:42:02.987:before into InitUpdateCore
+2022-03-17 14:42:02.989:init:开始调用
+2022-03-17 14:42:02.990:before step into ITC
+2022-03-17 14:42:02.990:before step into LPR
+2022-03-17 14:42:02.990:before step into assign
+2022-03-17 14:42:02.991:before return
+2022-03-17 14:45:26.899:进行初始化操作
+2022-03-17 14:45:26.899:构造 CommonFrameMain
+2022-03-17 14:45:26.903:begin load lib
+2022-03-17 14:45:26.903:读取文件配置
+2022-03-17 14:45:26.904:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 14:45:26.904:配置文件内容
+2022-03-17 14:45:26.904:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 14:45:26.905:配置解析成功
+2022-03-17 14:45:26.905:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 14:45:26.925:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 14:45:26.926:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 14:45:26.930:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 14:45:26.931:before into InitUpdateCore
+2022-03-17 14:45:26.933:init:开始调用
+2022-03-17 14:45:26.934:before step into ITC
+2022-03-17 14:45:26.934:before step into LPR
+2022-03-17 14:45:26.934:before step into assign
+2022-03-17 14:45:26.935:before return
+2022-03-17 15:39:17.461:进行初始化操作
+2022-03-17 15:39:17.462:构造 CommonFrameMain
+2022-03-17 15:39:17.468:begin load lib
+2022-03-17 15:39:17.468:读取文件配置
+2022-03-17 15:39:17.469:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-17 15:39:17.469:配置文件内容
+2022-03-17 15:39:17.469:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-17 15:39:17.470:配置解析成功
+2022-03-17 15:39:17.470:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-17 15:39:17.489:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-17 15:39:17.490:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-17 15:39:17.495:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-17 15:39:17.496:before into InitUpdateCore
+2022-03-17 15:39:17.497:init:开始调用
+2022-03-17 15:39:17.499:before step into ITC
+2022-03-17 15:39:17.499:before step into LPR
+2022-03-17 15:39:17.500:before step into assign
+2022-03-17 15:39:17.500:before return
+2022-03-21 14:52:55.505:进行初始化操作
+2022-03-21 14:52:55.514:构造 CommonFrameMain
+2022-03-21 14:52:55.524:begin load lib
+2022-03-21 14:52:55.525:读取文件配置
+2022-03-21 14:52:55.525:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-03-21 14:52:55.525:配置文件内容
+2022-03-21 14:52:55.525:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-03-21 14:52:55.526:配置解析成功
+2022-03-21 14:52:55.526:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-03-21 14:52:55.560:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-03-21 14:52:55.560:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-03-21 14:52:55.589:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-03-21 14:52:55.590:before into InitUpdateCore
+2022-03-21 14:52:55.592:init:开始调用
+2022-03-21 14:52:55.593:before step into ITC
+2022-03-21 14:52:55.593:before step into LPR
+2022-03-21 14:52:55.594:before step into assign
+2022-03-21 14:52:55.594:before return
+2022-04-20 16:01:49.704:进行初始化操作
+2022-04-20 16:01:49.713:构造 CommonFrameMain
+2022-04-20 16:01:49.725:begin load lib
+2022-04-20 16:01:49.726:读取文件配置
+2022-04-20 16:01:49.726:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-04-20 16:01:49.726:配置文件内容
+2022-04-20 16:01:49.726:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-04-20 16:01:49.727:配置解析成功
+2022-04-20 16:01:49.727:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-04-20 16:01:49.852:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-04-20 16:01:49.852:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-04-20 16:01:49.874:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-04-20 16:01:50.013:before into InitUpdateCore
+2022-04-20 16:01:50.016:init:开始调用
+2022-04-20 16:01:51.739:before step into ITC
+2022-04-20 16:01:51.739:before step into LPR
+2022-04-20 16:01:51.739:before step into assign
+2022-04-20 16:01:51.740:before return
+2022-09-26 19:50:54.462:进行初始化操作
+2022-09-26 19:50:54.482:构造 CommonFrameMain
+2022-09-26 19:50:54.536:begin load lib
+2022-09-26 19:50:54.537:读取文件配置
+2022-09-26 19:50:54.537:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-09-26 19:50:54.538:配置文件内容
+2022-09-26 19:50:54.538:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-09-26 19:50:54.538:配置解析成功
+2022-09-26 19:50:54.538:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-09-26 19:50:54.614:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-09-26 19:50:54.614:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-09-26 19:50:54.637:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-09-26 19:50:55.133:before into InitUpdateCore
+2022-09-26 19:50:55.136:init:开始调用
+2022-09-26 19:50:56.843:before step into ITC
+2022-09-26 19:50:56.843:before step into LPR
+2022-09-26 19:50:56.844:before step into assign
+2022-09-26 19:50:56.844:before return
+2022-09-26 19:51:47.076:进行初始化操作
+2022-09-26 19:51:47.076:构造 CommonFrameMain
+2022-09-26 19:51:47.080:begin load lib
+2022-09-26 19:51:47.080:读取文件配置
+2022-09-26 19:51:47.080:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-09-26 19:51:47.081:配置文件内容
+2022-09-26 19:51:47.081:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-09-26 19:51:47.081:配置解析成功
+2022-09-26 19:51:47.082:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-09-26 19:51:47.096:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-09-26 19:51:47.096:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-09-26 19:51:47.101:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-09-26 19:51:47.186:before into InitUpdateCore
+2022-09-26 19:51:47.189:init:开始调用
+2022-09-26 19:51:48.894:before step into ITC
+2022-09-26 19:51:48.895:before step into LPR
+2022-09-26 19:51:48.895:before step into assign
+2022-09-26 19:51:48.895:before return
+2022-09-26 19:54:21.637:进行初始化操作
+2022-09-26 19:54:21.637:构造 CommonFrameMain
+2022-09-26 19:54:21.640:begin load lib
+2022-09-26 19:54:21.640:读取文件配置
+2022-09-26 19:54:21.641:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-09-26 19:54:21.641:配置文件内容
+2022-09-26 19:54:21.641:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-09-26 19:54:21.642:配置解析成功
+2022-09-26 19:54:21.642:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-09-26 19:54:21.656:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-09-26 19:54:21.657:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-09-26 19:54:21.663:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-09-26 19:54:21.759:before into InitUpdateCore
+2022-09-26 19:54:21.760:init:开始调用
+2022-09-26 19:54:23.470:before step into ITC
+2022-09-26 19:54:23.470:before step into LPR
+2022-09-26 19:54:23.471:before step into assign
+2022-09-26 19:54:23.471:before return
+2022-09-26 19:59:15.981:进行初始化操作
+2022-09-26 19:59:15.981:构造 CommonFrameMain
+2022-09-26 19:59:15.985:begin load lib
+2022-09-26 19:59:15.986:读取文件配置
+2022-09-26 19:59:15.986:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-09-26 19:59:15.986:配置文件内容
+2022-09-26 19:59:15.987:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-09-26 19:59:15.987:配置解析成功
+2022-09-26 19:59:15.987:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-09-26 19:59:16.003:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-09-26 19:59:16.003:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-09-26 19:59:16.007:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-09-26 19:59:16.084:before into InitUpdateCore
+2022-09-26 19:59:16.087:init:开始调用
+2022-09-26 19:59:17.791:before step into ITC
+2022-09-26 19:59:17.791:before step into LPR
+2022-09-26 19:59:17.791:before step into assign
+2022-09-26 19:59:17.792:before return
+2022-09-26 20:04:55.566:进行初始化操作
+2022-09-26 20:04:55.566:构造 CommonFrameMain
+2022-09-26 20:04:55.570:begin load lib
+2022-09-26 20:04:55.570:读取文件配置
+2022-09-26 20:04:55.571:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-09-26 20:04:55.571:配置文件内容
+2022-09-26 20:04:55.571:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-09-26 20:04:55.572:配置解析成功
+2022-09-26 20:04:55.572:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-09-26 20:04:55.590:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-09-26 20:04:55.590:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-09-26 20:04:55.594:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-09-26 20:04:55.681:before into InitUpdateCore
+2022-09-26 20:04:55.683:init:开始调用
+2022-09-26 20:04:57.387:before step into ITC
+2022-09-26 20:04:57.388:before step into LPR
+2022-09-26 20:04:57.388:before step into assign
+2022-09-26 20:04:57.388:before return
+2022-09-26 20:10:50.622:进行初始化操作
+2022-09-26 20:10:50.622:构造 CommonFrameMain
+2022-09-26 20:10:50.625:begin load lib
+2022-09-26 20:10:50.626:读取文件配置
+2022-09-26 20:10:50.626:f:\etcevent_henan_git\testtool_henan\release\filepathconfig.txt
+2022-09-26 20:10:50.626:配置文件内容
+2022-09-26 20:10:50.626:{
+	"TWSDNetPayCore.dll":"TWSDNetPayCore.dll",
+	"TWUpdateCore.dll":"TWUpdateCore.dll"
+}
+
+2022-09-26 20:10:50.627:配置解析成功
+2022-09-26 20:10:50.627:加载路径：f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll
+2022-09-26 20:10:50.645:加载f:\etcevent_henan_git\testtool_henan\release\twsdnetpaycore.dll成功
+2022-09-26 20:10:50.646:加载路径：f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll
+2022-09-26 20:10:50.649:加载f:\etcevent_henan_git\testtool_henan\release\twupdatecore.dll成功
+2022-09-26 20:10:50.727:before into InitUpdateCore
+2022-09-26 20:10:50.730:init:开始调用
+2022-09-26 20:10:50.731:before step into ITC
+2022-09-26 20:10:50.732:before step into LPR
+2022-09-26 20:10:50.732:before step into assign
+2022-09-26 20:10:50.732:before return

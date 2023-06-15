@@ -1,0 +1,30 @@
+; ScanMachine.def : 声明 DLL 的模块参数。
+
+LIBRARY      "ScanMachine"
+
+EXPORTS
+    ; 此处可以是显式导出
+	IF_InitDev	@1
+	IF_DeInitDev		@2
+	IF_GetLastErrorDesc	@3
+	IF_GetDevStatus     @4
+	IF_EtcEventDealStart @5
+	IF_CheckVehQueue @6
+	IF_CheckVehInfo @7
+	IF_CheckEntryInfo @8
+	IF_ShowFeeInfo @9
+	IF_PayResultDisplay @10
+	IF_StartScan @11
+	IF_StopScan  @12
+	IF_EtcEventDealStop @13
+	IF_CardOperationNotify @14
+	IF_ModifyVehQueue @15
+	IF_SetDevInitData @16
+	IF_GetData @17
+	IF_FeeAuthorize @18
+	IF_EventAuthorize @19
+	IF_DelVehQueueResult @20
+	IF_Tr500QRcodeDisplay @21
+	IF_Tr500FeeDisplay @22
+	IF_Tr500PayResultDisplay @23
+	IF_Tr500ClearScreen @24

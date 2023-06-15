@@ -1,0 +1,56 @@
+; TWSDNetPay_Dll.def : Declares the module parameters for the DLL.
+
+LIBRARY      "TWSDNetPay_Dll"
+
+EXPORTS
+    ; Explicit exports can go here
+	IF_InitEnvironment		@1
+	IF_Destroy				@2
+	IF_GetLastErrorDesc		@3
+	IF_StartGetAccountInfo	@4
+	IF_StopGetAccountInfo	@5
+	IF_GetAccountInfo		@6
+	IF_DebitMoney			@7
+	IF_DebitCancel			@8
+	IF_GetDebitResult		@9
+	IF_SetMMI				@10
+	IF_GetParam				@11
+	IF_GetComponentStatus	@12
+	IF_TranslateData		@13
+	IF_InitEnvironment2		@14
+	IF_InitEnvironment3		@15
+	IF_TransferImage		@16
+	IF_AgencyDebitQuery		@17
+	IF_InnerGetDeviceNo		@18
+	IF_InnerGetSpecialData	@19
+	IF_InnerSetSpecialData	@20
+
+	IF_QueryVirtualCardDebit  @21
+	IF_QueryAgentDebitEtcUp  @22
+	IF_QueryAgentDebitResultEtcUp @23
+	IF_DebitMoneyEtcUp      @24
+	
+	IF_EventInitEnvironment3	@25
+	IF_EventDestroy			@26
+	IF_EventGetLastErrorDesc	@27
+	IF_EventGetComponentStatus @28
+	IF_EventDealStart @29
+	IF_EventCheckVehQueue @30
+	IF_EventCheckVehInfo @31
+	IF_EventCheckEntryInfo @32
+	IF_EventShowFeeInfo @33
+	IF_EventPayResultDisplay @34
+	IF_EventStartScan @35
+	IF_EventStopScan @36
+	IF_EventDealStop @37
+	IF_EventCardOperationNotify @38
+	IF_EventModifyVehQueue @39
+	IF_EventFeeAuthorize @40
+	IF_EventFreeVoicePlay @41	
+	IF_EventAuthorize @42
+	IF_EventDelVehQueueResult @43
+	IF_TransferCashInvoiceData @44
+	IF_CancelCashInvoiceData @45
+	;getInstance @21
+	;deleteInstance @22
+	
