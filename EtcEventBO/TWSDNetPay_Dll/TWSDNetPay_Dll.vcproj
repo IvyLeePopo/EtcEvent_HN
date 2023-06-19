@@ -1147,11 +1147,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\SQLite3Base.h"
+				RelativePath="D:\CommLibRef\include\SQLite3Base.h"
 				>
 			</File>
 			<File
-				RelativePath="D:\CommLibRef\include\SQLite3Base.h"
+				RelativePath=".\SQLite3Base.h"
 				>
 			</File>
 			<File
