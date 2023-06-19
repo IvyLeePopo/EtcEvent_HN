@@ -493,6 +493,14 @@ bool CThreadDevice::EtcEventDelVehQueueResult(const char* szParamContext, int iP
 	return bRet;
 }
 
+bool CThreadDevice::EtcEventWebsocketControl(const char* szParamContext, int iParamSize)
+{
+	bool bRet = false;
+	if (m_pHTSDDeviceDll != NULL)
+		bRet = m_pHTSDDeviceDll->fnIF_WebsocketControl(szParamContext, iParamSize);
+
+	return bRet;
+}
 
 CString CThreadDevice::ConstructClearScreenJson()
 {

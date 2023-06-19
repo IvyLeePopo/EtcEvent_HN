@@ -14,8 +14,8 @@ static int callback_http(struct lws *wsi, enum lws_callback_reasons reason, void
 
 static int callback_websocket(struct lws *pWsi, enum lws_callback_reasons reason, void *pUser, void* pRecvData, size_t nLen)
 {
-	if (nullptr == pUser)
-		return 0;
+	//if (nullptr == pUser)
+	//	return 0;
 	
 	WebSocketBase* pWebSocket = (WebSocketBase*)WebSocketBase::getLwsToWs(pWsi);
 	if (nullptr == pWebSocket)
@@ -78,9 +78,6 @@ int WebSocketBase::circle()
 {
 	while(isCanRun())
 	{
-		lws_service(m_pContext, 1000);
-		lws_callback_on_writable(m_pWsi);
-
 		lws_callback_on_writable_all_protocol(m_pContext, &protocols[0]); 
 		lws_service(m_pContext, 1000);//启动服务器
 
@@ -143,18 +140,18 @@ void WebSocketBase::unInit()
 	}
 }
 
-bool WebSocketBase::startSever(const char* pszIp, const int nPort)
+bool WebSocketBase::startSever(/*const char* pszIp, const int nPort*/)
 {
 	char szBuf[1028] = {0};
-	if (nullptr == pszIp || 0 == nPort)
-	{
-		//strErr = "请检查websocket的ip和端口配置";
-		return false;
-	}
+	//if (nullptr == pszIp || 0 == nPort)
+	//{
+	//	//strErr = "请检查websocket的ip和端口配置";
+	//	return false;
+	//}
 
 	if (isStarted())
 	{
-		sprintf_s(szBuf, "服务器已经开启，请勿再次开启!", pszIp, nPort);
+		//sprintf_s(szBuf, "服务器已经开启，请勿再次开启!", pszIp, nPort);
 		//strErr = szBuf;
 		return true;
 	}
@@ -171,26 +168,23 @@ bool WebSocketBase::startSever(const char* pszIp, const int nPort)
 		m_pContext = nullptr;
 	}
 
-	struct lws_context_creation_info info;
-	struct lws_context *context;
 	int port = 8081;
 	int opts = 0;//本软件的额外功能选项
 
-	memset(&info, 0, sizeof(info));
 	//设置info，填充info信息体
-	info.port = port;
-	info.protocols = protocols;
-	info.gid = -1;
-	info.uid = -1;
-	info.ssl_private_key_filepath = NULL;
-	info.ssl_ca_filepath = NULL;
-	info.options = opts;
-	info.ka_time = 0;
-	info.ka_probes = 0;
-	info.ka_interval = 0;
+	m_pLwsCtxInfo->port = port;
+	m_pLwsCtxInfo->protocols = protocols;
+	m_pLwsCtxInfo->gid = -1;
+	m_pLwsCtxInfo->uid = -1;
+	m_pLwsCtxInfo->ssl_private_key_filepath = NULL;
+	m_pLwsCtxInfo->ssl_ca_filepath = NULL;
+	m_pLwsCtxInfo->options = opts;
+	m_pLwsCtxInfo->ka_time = 0;
+	m_pLwsCtxInfo->ka_probes = 0;
+	m_pLwsCtxInfo->ka_interval = 0;
 
-	context = lws_create_context(&info);//创建上下文对象，管理ws
-	if (!context) 
+	m_pContext = lws_create_context(m_pLwsCtxInfo);//创建上下文对象，管理ws
+	if (!m_pContext) 
 	{
 		printf("Error creating WebSocket context\n");
 		return 1;
@@ -201,8 +195,8 @@ bool WebSocketBase::startSever(const char* pszIp, const int nPort)
 	int nTimes = 0;
 	while (true) //正常都是可以开启服务器的，开启后，进如循环
 	{
-		lws_callback_on_writable_all_protocol(context, &protocols[0]); 
-		lws_service(context, 100);//启动服务器
+		lws_callback_on_writable_all_protocol(m_pContext, &protocols[0]); 
+		lws_service(m_pContext, 100);//启动服务器
 
 		if (nTimes++ > 10 || isStarted())
 			break;

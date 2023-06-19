@@ -55,6 +55,7 @@ public:
 	bool EtcEventFreeVoicePlay(const char* szParamContext, int iParamSize);
 	bool EtcEventAuthorize(const char* szParamContext, int iParamSize);
 	bool EtcEventDelVehQueueResult(const char* szParamContext, int iParamSize);
+	bool EtcEventWebsocketControl(const char* szParamContext, int iParamSize);
 /*****************************************************************************/
 	CString ConstructClearScreenJson();
 

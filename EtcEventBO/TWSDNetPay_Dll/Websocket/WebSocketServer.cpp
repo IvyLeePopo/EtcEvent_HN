@@ -15,10 +15,12 @@ void recvMsgFunc(void* pArgs, const char* pszData, int nSize)
 
 WebSocketServer::WebSocketServer(void)
 {
+	init();
 }
 
 WebSocketServer::~WebSocketServer(void)
 {
+	unInit();
 }
 
 int WebSocketServer::circle()
@@ -50,12 +52,12 @@ int WebSocketServer::circle()
 	return TRUE;
 }
 
-bool WebSocketServer::startServer(const char* pszIp, const int nPort)
+bool WebSocketServer::startServer(/*const char* pszIp, const int nPort*/)
 {
 	if(m_pWebSocketBase->isStarted())
 		return true;
 
-	if(!m_pWebSocketBase->startSever(pszIp, nPort))
+	if(!m_pWebSocketBase->startSever(/*pszIp, nPort*/))
 	{
 		// 未能开启服务器
 		return false;

@@ -103,6 +103,9 @@ public:
 	typedef bool (WINAPI *defIF_Tr500PayResultDisplay)(IN const char* strJsonParam, IN const int& iJsonParamSize);
 	//清屏接口定义
 	typedef bool (WINAPI *defIF_Tr500ClearScreen)(IN const char* strJsonParam, IN const int& iJsonParamSize);
+	
+	//websocket通讯数据
+	typedef bool (WINAPI *defIF_WebsocketControl)(IN const char* strJsonParam, IN const int& iJsonParamSize);
 
 public:
 	CHTSDDeviceDll(void);
@@ -157,6 +160,7 @@ public:
 	BOOL FeeDisplay(const CString& strJson);
 	BOOL PayResultDisplay(const CString& strJson);
 	BOOL ClearScreen(const CString& strJson);
+	BOOL WebsocketControl(const CString& strJson);
 
 //Attributes
 private:
@@ -218,6 +222,8 @@ public:
 	defIF_Tr500FeeDisplay		fnIF_Tr500FeeDisplay;
 	defIF_Tr500PayResultDisplay	fnIF_Tr500PayResultDisplay;
 	defIF_Tr500ClearScreen		fnIF_Tr500ClearScreen;
+
+	defIF_WebsocketControl		fnIF_WebsocketControl;
 
 	//组件初始化标记
 	BOOL	m_bInitDev;

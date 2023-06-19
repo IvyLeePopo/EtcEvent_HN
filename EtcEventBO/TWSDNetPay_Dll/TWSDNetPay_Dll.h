@@ -35,6 +35,9 @@
 
 #include "ComponentMessage.h"
 #include "ETCPayManage.h"
+
+#include "Websocket/WebSocketServer.h"
+
 //#include "CommonBus.h"/*add zhuyabing 2017-11 组件平台接口类*/
 //#pragma  comment(lib, "CommonBus.lib")
 
@@ -191,6 +194,10 @@ public:
 	static bool CheckEventFeeAuthorize(const char* szParamContext, CString& ErrorDescribe);
 	static bool CheckEventDelVehQueueResult(const char* szParamContext, CString& ErrorDescribe);
 	static std::string GenerateEtcEventInitData();
+
+	// 开启读卡器动态库的服务器
+	static bool StartReaderServer();
+	bool RecvMsgFuncFromWebsocket(const char* pszData, int nSize);
 
 struct NFCParaInfo
 {
@@ -531,6 +538,9 @@ public:
 	int m_EtcServerPort;
 	int m_EtcServerUpdatePort;
 	std::string m_EtcEventNo;
+
+	// 创建读卡器动态库的服务器;   记得要释放指针，还没做
+	static WebSocketServer* m_pWebSocketServerReader;
 };
 
 extern CTWSDNetPay_DllApp theApp;

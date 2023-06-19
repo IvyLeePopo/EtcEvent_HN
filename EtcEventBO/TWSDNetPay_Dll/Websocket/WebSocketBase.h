@@ -43,7 +43,7 @@ public:
 	void reseErrortDisconnect(bool bDisconnect) { m_bErrorDisconnect = bDisconnect; }
 
 	// ¿ªÆô·þÎñÆ÷
-	bool startSever(const char* pszIp, const int nPort);
+	bool startSever(/*const char* pszIp, const int nPort*/);
 	void resetStarted(bool bStartServer) { m_bStartServer = bStartServer; }
 	bool isStarted();
 

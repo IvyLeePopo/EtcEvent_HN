@@ -105,6 +105,7 @@ HWND			CTWSDNetPay_DllApp::EtcEventCallerWnd							= 0;
 UINT			CTWSDNetPay_DllApp::EtcEventCallerThreadID						= 0;
 BOOL			CTWSDNetPay_DllApp::m_bEnableMediaGateWay						= false;
 UINT			CTWSDNetPay_DllApp::m_iCurrentWorkMode							= 0;
+WebSocketServer* CTWSDNetPay_DllApp::m_pWebSocketServerReader					= NULL;
 
 
 
@@ -144,6 +145,15 @@ std::string TmpGetDumpDir()
 }
 
 void TranstParam2LPRInitPara(const tagTranstParam&src, LPRInitData& dest);
+
+void _recvMsgFuncFromWebsocket(void* pArgs, const char* pszData, int nSize)
+{
+	if (nullptr == pArgs || nullptr == pszData)
+		return;
+
+	theApp.RecvMsgFuncFromWebsocket(pszData，nSize);
+    return;
+}
 
 CTWSDNetPay_DllApp::CTWSDNetPay_DllApp():
     m_SendId(20)
@@ -1576,6 +1586,15 @@ bool WINAPI CTWSDNetPay_DllApp::IF_InitEnvironment3 (IN const UINT& nThreadID, I
             RecordLog(m_strLastErrorDesc, LOG_LEVEL_ERROR);
         }
     }
+
+	// 开启读卡器动态库的服务器
+	bool bStartReaderServer = StartReaderServer();
+
+	if(bStartReaderServer)
+		RecordLog(FmtStr(_T("[主进程响应],组件初始化接口(StartReaderServer)开启读卡器动态库的服务器成功")));
+	else
+		RecordLog(FmtStr(_T("[主进程响应],组件初始化接口(StartReaderServer)开启读卡器动态库的服务器失败")));
+
 
     RecordLog(FmtStr(_T("[主进程响应],组件初始化接口(IF_InitEnvironment3)调用结束")));
 
@@ -5962,6 +5981,58 @@ bool CTWSDNetPay_DllApp::CheckEventDelVehQueueResult(const char* szParamContext,
 	return true;
 }
 
+
+bool CTWSDNetPay_DllApp::StartReaderServer()
+{
+	if(!m_pWebSocketServerReader)
+	{
+		m_pWebSocketServerReader = new WebSocketServer();
+		m_pWebSocketServerReader->startServer();
+	}
+
+	return true;
+}
+
+
+
+
+bool CTWSDNetPay_DllApp::RecvMsgFuncFromWebsocket(const char* pszData, int nSize)
+{
+	// 接收客户端的信息，转发给读卡器
+	AFX_MANAGE_STATE(AfxGetStaticModuleState());
+
+	RecordLog(FmtStr(_T("[ETC特情业务],转发数据给串口接口(EtcEventWebsocketControl)调用开始")));
+	CString strLog;
+	bool bRet = false;
+
+	try
+	{
+		if(m_pThreadManage == NULL)
+			throw -1;
+
+		if(m_pThreadManage->m_pThreadDevice == NULL)
+			throw -2;
+
+		bRet = theApp.m_pThreadManage->m_pThreadDevice->EtcEventWebsocketControl(pszData, nSize);
+	}
+    catch (int& iErrorCode)
+    {
+        switch (iErrorCode)
+        {
+        case -1:
+            strLog.Format(_T("EtcEvent环境初始化接口(IF_EventInitEnvironment3),业务管理线程资源为空！"));
+            break;
+        case -2:
+            strLog.Format(_T("EtcEvent环境初始化接口(IF_EventInitEnvironment3),设备控制线程资源为空！"));
+            break;
+        }
+        //记录日志
+		RecordLog(strLog);
+	}
+
+	return bRet;
+
+}
 
 /****************************************内部辅助函数********************************************/
 

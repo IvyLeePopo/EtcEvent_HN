@@ -12,7 +12,7 @@ public:
 	virtual int circle();
 
 	// 启动服务器 
-	bool startServer(const char* pszIp, const int nPort);
+	bool startServer(/*const char* pszIp, const int nPort*/);
 
 	// 关闭服务器 
 	void stopServer();

@@ -51,6 +51,7 @@ CHTSDDeviceDll::CHTSDDeviceDll(void)
 	,fnIF_Tr500QRcodeDisplay(NULL)
 	,fnIF_Tr500FeeDisplay(NULL)
 	,fnIF_Tr500PayResultDisplay(NULL)
+	,fnIF_WebsocketControl(NULL)
 {
 }
 
@@ -147,6 +148,7 @@ const BOOL CHTSDDeviceDll::Init(IN const CString& strDllFilePath)
 		fnIF_Tr500FeeDisplay	 = (defIF_Tr500FeeDisplay)::GetProcAddress(m_hModule, "IF_Tr500FeeDisplay");
 		fnIF_Tr500PayResultDisplay   = (defIF_Tr500PayResultDisplay)::GetProcAddress(m_hModule, "IF_Tr500PayResultDisplay");
 		fnIF_Tr500ClearScreen		 = (defIF_Tr500ClearScreen)::GetProcAddress(m_hModule, "IF_Tr500ClearScreen");
+		fnIF_WebsocketControl		 = (fnIF_WebsocketControl)::GetProcAddress(m_hModule, "IF_WebsocketControl");
 		if (		(NULL != fnIF_InitDev)
 					&& (NULL != fnIF_SetDevInitData)
 		            && (NULL != fnIF_DeInitDev)
@@ -171,6 +173,7 @@ const BOOL CHTSDDeviceDll::Init(IN const CString& strDllFilePath)
 					&& (NULL != fnIF_Tr500FeeDisplay)
 					&& (NULL != fnIF_Tr500PayResultDisplay)
 					&& (NULL != fnIF_Tr500ClearScreen)
+					&& (NULL != fnIF_WebsocketControl)
 					)
 
 		{
