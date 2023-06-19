@@ -28,3 +28,4 @@ EXPORTS
 	IF_Tr500FeeDisplay @22
 	IF_Tr500PayResultDisplay @23
 	IF_Tr500ClearScreen @24
+	IF_WebsocketControl @25

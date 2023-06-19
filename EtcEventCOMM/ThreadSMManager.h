@@ -41,6 +41,7 @@ public:
 	bool EventFeeAuthorize(const char* ParamContext, int iParamSize);
 	bool EventAuthorize(const char* ParamContext, int iParamSize);
 	bool EventDelVehQueueResult(const char* szParamContext, int iParamSize);
+	bool EventWebsocketControl(const char* szParamContext, int iParamSize);
 
 /********************************************************************************************/
 	bool QRcodeDisplay(const char* ParamContext, int iParamSize);

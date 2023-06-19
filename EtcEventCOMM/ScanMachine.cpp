@@ -1001,3 +1001,21 @@ bool WINAPI CScanMachineApp::IF_Tr500ClearScreen(IN const char* strJsonParam, IN
 
 	return bRet;
 }
+
+//websocket通讯数据
+bool WINAPI CScanMachineApp::IF_WebsocketControl(IN const char* strJsonParam, IN const int& iJsonParamSize)
+{
+	AFX_MANAGE_STATE(AfxGetStaticModuleState());
+
+	bool bRet = false;
+	char log[256] = {0};
+	_snprintf_s(log, 256, "读卡动态库websocket通讯控制(IF_WebsocketControl)调用开始,参数:%s", strJsonParam);
+	theApp.RecordMsgTemp(log);
+
+	if(theApp.m_pThreadSMManager != NULL)
+	{
+		bRet = theApp.m_pThreadSMManager->EventWebsocketControl(strJsonParam, iJsonParamSize);
+	}
+
+	return bRet;
+}

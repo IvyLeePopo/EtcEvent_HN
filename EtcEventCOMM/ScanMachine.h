@@ -77,6 +77,10 @@ public:
 	static bool WINAPI IF_Tr500PayResultDisplay(IN const char* strJsonParam, IN const int& iJsonParamSize);
 	//清屏
 	static bool WINAPI IF_Tr500ClearScreen(IN const char* strJsonParam, IN const int& iJsonParamSize);
+
+	
+	//websocket通讯数据
+	static bool WINAPI IF_WebsocketControl(IN const char* strJsonParam, IN const int& iJsonParamSize);
 	
 	
 	//ETC特情处理应答指针，在回掉通知的时候将应答内容传递出去

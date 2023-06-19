@@ -593,6 +593,26 @@ bool CThreadSMManager::EventDelVehQueueResult(const char* ParamContext, int iPar
 	return SendResult;
 }
 
+bool CThreadSMManager::EventWebsocketControl(const char* ParamContext, int iParamSize)
+{
+	unsigned short id = NextCMDId();
+	std::string cmd_data = PackDataEventDelVehQueueResult(ParamContext, iParamSize, id);
+	
+	bool SendResult = false;
+	int times = 3;
+	while(times)
+	{		
+		WriteDataToComm(cmd_data);
+		if(IsSendSuccess(id))
+		{
+			SendResult = true;
+			break;
+		}
+		times--;
+	}
+	return SendResult;
+}
+
 bool CThreadSMManager::EventStartScan()
 {
 	unsigned short id = NextCMDId();
