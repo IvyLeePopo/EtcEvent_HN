@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestTool", "TestDevIF.vcproj", "{1DF3FAC1-6C83-4B7E-B514-D51136F253AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TWSDNetPay_Dll", "..\EtcEventBO\TWSDNetPay_Dll\TWSDNetPay_Dll.vcproj", "{23FA8A5A-3F85-4B87-BD1A-D727FD9B2952}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{C48FF050-0120-4A7A-AD01-9B1B677C66EE} = {C48FF050-0120-4A7A-AD01-9B1B677C66EE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +22,10 @@ Global
 		{1DF3FAC1-6C83-4B7E-B514-D51136F253AB}.Debug|Win32.Build.0 = Debug|Win32
 		{1DF3FAC1-6C83-4B7E-B514-D51136F253AB}.Release|Win32.ActiveCfg = Release|Win32
 		{1DF3FAC1-6C83-4B7E-B514-D51136F253AB}.Release|Win32.Build.0 = Release|Win32
+		{23FA8A5A-3F85-4B87-BD1A-D727FD9B2952}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23FA8A5A-3F85-4B87-BD1A-D727FD9B2952}.Debug|Win32.Build.0 = Debug|Win32
+		{23FA8A5A-3F85-4B87-BD1A-D727FD9B2952}.Release|Win32.ActiveCfg = Release|Win32
+		{23FA8A5A-3F85-4B87-BD1A-D727FD9B2952}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

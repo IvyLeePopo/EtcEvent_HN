@@ -103,7 +103,7 @@
 		</Configuration>
 		<Configuration
 			Name="Release|Win32"
-			OutputDirectory="..\..\TestTool_HeNan\release"
+			OutputDirectory="../../TestTool_HeNan/release\"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="2"
 			UseOfMFC="1"
@@ -129,7 +129,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="D:\CommLibRef\include;D:\CommLibRef\include\json"
+				AdditionalIncludeDirectories="./curl/websocket_include"
 				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;_USRDLL;BUILDING_LIBCURL"
 				RuntimeLibrary="0"
 				UsePrecompiledHeader="2"
@@ -154,7 +154,7 @@
 				AdditionalDependencies="libcurl.lib ws2_32.lib winmm.lib wldap32.lib"
 				OutputFile="$(OutDir)\TWSDNetPayCore.dll"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="D:\CommLibRef\lib;C:\工作目录\SVN\155代码\1.5\WINDOWS平台\BO\TWSDNetPay_Dll\curl\lib;&quot;$(SolutionDir)\curl\lib&quot;"
+				AdditionalLibraryDirectories="./curl/lib;./curl/websocket_lib"
 				ModuleDefinitionFile=".\TWSDNetPay_Dll.def"
 				GenerateDebugInformation="true"
 				GenerateMapFile="true"
@@ -1135,6 +1135,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Websocket\SingleTon.h"
+				>
+			</File>
+			<File
 				RelativePath=".\sqlite3.h"
 				>
 			</File>
@@ -1143,11 +1147,11 @@
 				>
 			</File>
 			<File
-				RelativePath="D:\CommLibRef\include\SQLite3Base.h"
+				RelativePath=".\SQLite3Base.h"
 				>
 			</File>
 			<File
-				RelativePath=".\SQLite3Base.h"
+				RelativePath="D:\CommLibRef\include\SQLite3Base.h"
 				>
 			</File>
 			<File
@@ -1246,6 +1250,42 @@
 			</File>
 			<File
 				RelativePath=".\res\TWSDNetPay_Dll.rc2"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Websocket"
+			>
+			<File
+				RelativePath=".\Websocket\Helper.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Websocket\Helper.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Websocket\WebSocketBase.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Websocket\WebSocketBase.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Websocket\WebSocketServer.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Websocket\WebSocketServer.h"
+				>
+			</File>
+			<File
+				RelativePath=".\Websocket\WebSocketThreadBase.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Websocket\WebSocketThreadBase.h"
 				>
 			</File>
 		</Filter>
